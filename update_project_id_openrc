@@ -1,0 +1,22 @@
+#!/bin/bash
+# Execute the grep command to find the admin_project value
+OPENRC_FILE="/home/stguser/devstack/openrc"
+PROJECT_ID=$(grep -r 'admin_project=[a-f0-9]\{32\}' /opt/stack/logs | cut -d'=' -f2)
+
+# Trim any leading or trailing whitespace from the PROJECT_ID variable
+PROJECT_ID=$(echo "$PROJECT_ID" | tr -d '[:space:]')
+
+# Check if PROJECT_ID is empty or not found
+if [ -z "$PROJECT_ID" ]; then
+    echo "Error: PROJECT_ID not found or empty."
+    exit 1
+fi
+
+# Print the captured PROJECT_ID value
+#echo "export OS_PROJECT_ID=$PROJECT_ID" >> "$openrc_path"
+echo "OS_PROJECT_ID=$PROJECT_ID"
+# Use sed to replace OS_PROJECT_ID with the new value
+sed -i "s/^export OS_PROJECT_ID=.*/export OS_PROJECT_ID=$PROJECT_ID/" "$OPENRC_FILE"
+
+
+#echo "Host_IP=$REMOTE_HOST" >> "$local_conf_path"
