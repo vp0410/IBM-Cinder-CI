@@ -1,229 +1,229 @@
-{2} setUpClass (tempest.api.volume.admin.test_multi_backend.VolumeMultiBackendTest) ... SKIPPED: Cinder multi-backend feature disabled
-{0} setUpClass (tempest.api.volume.test_volumes_backup.VolumesBackupsTest) ... SKIPPED: Cinder backup feature disabled
 {4} setUpClass (tempest.api.volume.admin.test_volume_retype.VolumeRetypeWithMigrationTest) ... SKIPPED: Cinder multi-backend feature disabled
-{5} setUpClass (tempest.api.volume.admin.test_encrypted_volumes_extend.EncryptedVolumesExtendAttachedTest) ... SKIPPED: Attached encrypted volume extend is disabled.
-{1} setUpClass (tempest.api.volume.admin.test_volumes_backup.VolumesBackupsAdminTest) ... SKIPPED: Cinder backup feature disabled
-{28} tempest.api.volume.test_versions.VersionsTest.test_list_versions [0.031158s] ... ok
-{31} tempest.api.volume.test_availability_zone.AvailabilityZoneTestJSON.test_get_availability_zone_list [5.783417s] ... ok
-{27} tempest.api.volume.test_extensions.ExtensionsTestJSON.test_list_extensions [6.580755s] ... ok
-{28} tempest.api.volume.test_versions.VersionsTest.test_show_version [5.974719s] ... ok
-{25} tempest.api.volume.test_volumes_snapshots_negative.VolumesSnapshotNegativeTestJSON.test_create_snapshot_with_nonexistent_volume_id [6.275460s] ... ok
-{30} tempest.api.volume.test_volumes_get.VolumesSummaryTest.test_show_volume_summary [3.920668s] ... ok
-{25} tempest.api.volume.test_volumes_snapshots_negative.VolumesSnapshotNegativeTestJSON.test_create_snapshot_without_passing_volume_id [1.889511s] ... ok
-{25} tempest.api.volume.test_volumes_snapshots_negative.VolumesSnapshotNegativeTestJSON.test_list_snapshot_invalid_param_limit [0.010051s] ... ok
-{25} tempest.api.volume.test_volumes_snapshots_negative.VolumesSnapshotNegativeTestJSON.test_list_snapshots_invalid_param_marker [0.702047s] ... ok
-{25} tempest.api.volume.test_volumes_snapshots_negative.VolumesSnapshotNegativeTestJSON.test_list_snapshots_invalid_param_sort [0.013590s] ... ok
-{9} tempest.api.volume.admin.test_volume_services.VolumesServicesTestJSON.test_get_service_by_host_name [0.028005s] ... ok
-{21} tempest.api.volume.admin.test_volume_types_negative.VolumeTypesNegativeTest.test_create_volume_type_encryption_nonexistent_type_id [1.787951s] ... ok
-{26} tempest.api.volume.admin.test_volume_hosts.VolumeHostsAdminTestsJSON.test_list_hosts [1.789814s] ... ok
-{9} tempest.api.volume.admin.test_volume_services.VolumesServicesTestJSON.test_get_service_by_service_and_host_name [0.025128s] ... ok
-{9} tempest.api.volume.admin.test_volume_services.VolumesServicesTestJSON.test_get_service_by_service_binary_name [0.021553s] ... ok
-{26} tempest.api.volume.admin.test_volume_hosts.VolumeHostsAdminTestsJSON.test_show_host [0.720742s] ... ok
-{18} tempest.api.volume.admin.test_volume_quota_classes.VolumeQuotaClassesTest.test_show_default_quota [1.374902s] ... ok
-{33} tempest.api.volume.admin.test_volume_pools.VolumePoolsAdminTestsJSON.test_get_pools_with_details [1.900750s] ... ok
-{24} tempest.api.volume.admin.test_backends_capabilities.BackendsCapabilitiesAdminTestsJSON.test_compare_volume_stats_values [3.572132s] ... ok
-{29} tempest.api.volume.admin.test_volume_services_negative.VolumeServicesNegativeTest.test_disable_log_reason_with_no_reason [1.476626s] ... ok
-{33} tempest.api.volume.admin.test_volume_pools.VolumePoolsAdminTestsJSON.test_get_pools_without_details [1.915434s] ... ok
-{23} tempest.api.volume.admin.test_volume_types_extra_specs_negative.ExtraSpecsNegativeTest.test_create_invalid_body [1.619082s] ... ok
-{21} tempest.api.volume.admin.test_volume_types_negative.VolumeTypesNegativeTest.test_create_volume_with_private_volume_type [6.859121s] ... ok
-{29} tempest.api.volume.admin.test_volume_services_negative.VolumeServicesNegativeTest.test_disable_service_with_invalid_binary [2.759833s] ... ok
-{20} tempest.api.volume.admin.test_volume_types.VolumeTypesTest.test_volume_type_create_get_delete [7.093710s] ... ok
-{24} tempest.api.volume.admin.test_backends_capabilities.BackendsCapabilitiesAdminTestsJSON.test_get_capabilities_backend [3.056961s] ... ok
-{23} tempest.api.volume.admin.test_volume_types_extra_specs_negative.ExtraSpecsNegativeTest.test_create_none_body [1.936321s] ... ok
-{21} tempest.api.volume.admin.test_volume_types_negative.VolumeTypesNegativeTest.test_create_with_empty_name [5.563516s] ... ok
-{29} tempest.api.volume.admin.test_volume_services_negative.VolumeServicesNegativeTest.test_enable_service_with_invalid_host [5.542043s] ... ok
-{23} tempest.api.volume.admin.test_volume_types_extra_specs_negative.ExtraSpecsNegativeTest.test_create_nonexistent_type_id [5.627174s] ... ok
-{23} tempest.api.volume.admin.test_volume_types_extra_specs_negative.ExtraSpecsNegativeTest.test_delete_nonexistent_volume_type_id [2.133858s] ... ok
-{29} tempest.api.volume.admin.test_volume_services_negative.VolumeServicesNegativeTest.test_freeze_host_with_invalid_host [2.485910s] ... ok
-{29} tempest.api.volume.admin.test_volume_services_negative.VolumeServicesNegativeTest.test_thaw_host_with_invalid_host [2.378822s] ... ok
-{23} tempest.api.volume.admin.test_volume_types_extra_specs_negative.ExtraSpecsNegativeTest.test_get_nonexistent_extra_spec_name [2.395742s] ... ok
-{22} tempest.api.volume.admin.test_volume_types_extra_specs.VolumeTypesExtraSpecsTest.test_volume_type_extra_spec_create_get_delete [13.724250s] ... ok
-{23} tempest.api.volume.admin.test_volume_types_extra_specs_negative.ExtraSpecsNegativeTest.test_get_nonexistent_volume_type_id [1.782293s] ... ok
-{21} tempest.api.volume.admin.test_volume_types_negative.VolumeTypesNegativeTest.test_create_with_repeated_name [7.641128s] ... ok
-{23} tempest.api.volume.admin.test_volume_types_extra_specs_negative.ExtraSpecsNegativeTest.test_list_nonexistent_volume_type_id [0.990742s] ... ok
-{23} tempest.api.volume.admin.test_volume_types_extra_specs_negative.ExtraSpecsNegativeTest.test_update_multiple_extra_spec [0.015785s] ... ok
-{21} tempest.api.volume.admin.test_volume_types_negative.VolumeTypesNegativeTest.test_delete_nonexistent_type_id [0.015775s] ... ok
-{21} tempest.api.volume.admin.test_volume_types_negative.VolumeTypesNegativeTest.test_get_nonexistent_type_id [0.012606s] ... ok
-{23} tempest.api.volume.admin.test_volume_types_extra_specs_negative.ExtraSpecsNegativeTest.test_update_no_body [0.013539s] ... ok
-{23} tempest.api.volume.admin.test_volume_types_extra_specs_negative.ExtraSpecsNegativeTest.test_update_none_extra_spec_id [0.077781s] ... ok
-{23} tempest.api.volume.admin.test_volume_types_extra_specs_negative.ExtraSpecsNegativeTest.test_update_nonexistent_extra_spec_id [0.084988s] ... ok
-{23} tempest.api.volume.admin.test_volume_types_extra_specs_negative.ExtraSpecsNegativeTest.test_update_nonexistent_type_id [0.102423s] ... ok
-{22} tempest.api.volume.admin.test_volume_types_extra_specs.VolumeTypesExtraSpecsTest.test_volume_type_extra_specs_list [3.393870s] ... ok
-{39} tempest.api.volume.test_volume_absolute_limits.AbsoluteLimitsTests.test_get_volume_absolute_limits [0.332380s] ... ok
-{34} tempest.api.volume.test_volume_metadata.VolumesMetadataTest.test_crud_volume_metadata [6.515876s] ... ok
-{20} tempest.api.volume.admin.test_volume_types.VolumeTypesTest.test_volume_type_encryption_create_get_update_delete [19.775419s] ... ok
-{22} tempest.api.volume.admin.test_volume_types_extra_specs.VolumeTypesExtraSpecsTest.test_volume_type_extra_specs_update [6.003117s] ... ok
-{20} tempest.api.volume.admin.test_volume_types.VolumeTypesTest.test_volume_type_list [0.061618s] ... ok
-{12} tempest.api.volume.admin.test_user_messages.UserMessagesTest.test_delete_message [29.084521s] ... ok
-{34} tempest.api.volume.test_volume_metadata.VolumesMetadataTest.test_update_show_volume_metadata_item [4.287732s] ... ok
-{18} tempest.api.volume.admin.test_volume_quota_classes.VolumeQuotaClassesTest.test_update_default_quota [32.050053s] ... ok
-{19} tempest.api.volume.admin.test_qos.QosSpecsTestJSON.test_associate_disassociate_qos [32.107102s] ... ok
-{19} tempest.api.volume.admin.test_qos.QosSpecsTestJSON.test_create_delete_qos_with_back_end_consumer [3.254937s] ... ok
-{19} tempest.api.volume.admin.test_qos.QosSpecsTestJSON.test_create_delete_qos_with_both_consumer [1.127729s] ... ok
-{37} tempest.api.volume.admin.test_volume_quotas_negative.VolumeQuotasNegativeTestJSON.test_quota_volume_gigabytes [2.418233s] ... ok
-{20} tempest.api.volume.admin.test_volume_types.VolumeTypesTest.test_volume_type_update [12.352349s] ... ok
-{19} tempest.api.volume.admin.test_qos.QosSpecsTestJSON.test_create_delete_qos_with_front_end_consumer [0.611122s] ... ok
-{19} tempest.api.volume.admin.test_qos.QosSpecsTestJSON.test_get_qos [0.032973s] ... ok
-{19} tempest.api.volume.admin.test_qos.QosSpecsTestJSON.test_list_qos [0.021329s] ... ok
-{3} tempest.api.volume.admin.test_volume_quotas.VolumeQuotasAdminTestJSON.test_delete_quota [30.494169s] ... ok
-{37} tempest.api.volume.admin.test_volume_quotas_negative.VolumeQuotasNegativeTestJSON.test_quota_volumes [0.724736s] ... ok
-{3} tempest.api.volume.admin.test_volume_quotas.VolumeQuotasAdminTestJSON.test_list_default_quotas [0.053500s] ... ok
-{3} tempest.api.volume.admin.test_volume_quotas.VolumeQuotasAdminTestJSON.test_list_quotas [0.055655s] ... ok
-{19} tempest.api.volume.admin.test_qos.QosSpecsTestJSON.test_set_unset_qos_key [0.372299s] ... ok
-{8} tempest.api.volume.test_volumes_clone_negative.VolumesCloneNegativeTest.test_create_from_volume_decreasing_size [54.343192s] ... ok
-{10} tempest.api.volume.admin.test_volume_type_access.VolumeTypesAccessTest.test_volume_type_access_add [35.878974s] ... ok
-{12} tempest.api.volume.admin.test_user_messages.UserMessagesTest.test_list_show_messages [13.085953s] ... ok
-{11} tempest.api.volume.admin.test_volume_retype.VolumeRetypeWithoutMigrationTest.test_available_volume_retype [35.867888s] ... ok
-{10} tempest.api.volume.admin.test_volume_type_access.VolumeTypesAccessTest.test_volume_type_access_list [2.362913s] ... ok
-{9} tempest.api.volume.admin.test_volume_services.VolumesServicesTestJSON.test_get_service_by_volume_host_name [44.149535s] ... ok
-{9} tempest.api.volume.admin.test_volume_services.VolumesServicesTestJSON.test_list_services [0.023933s] ... ok
-{35} tempest.api.volume.test_snapshot_metadata.SnapshotMetadataTestJSON.test_crud_snapshot_metadata [1.861797s] ... ok
-{13} tempest.api.volume.admin.test_snapshots_actions.SnapshotsActionsTest.test_reset_snapshot_status [1.020098s] ... ok
-{35} tempest.api.volume.test_snapshot_metadata.SnapshotMetadataTestJSON.test_update_show_snapshot_metadata_item [1.174593s] ... ok
-{7} tempest.api.volume.test_volume_transfers.VolumesTransfersV357Test.test_create_get_list_accept_volume_transfer [44.483019s] ... ok
-{36} tempest.api.volume.admin.test_volume_snapshot_quotas_negative.VolumeSnapshotQuotasNegativeTestJSON.test_quota_volume_gigabytes_snapshots [1.280140s] ... ok
-{36} tempest.api.volume.admin.test_volume_snapshot_quotas_negative.VolumeSnapshotQuotasNegativeTestJSON.test_quota_volume_snapshots [0.071372s] ... ok
-{6} tempest.api.volume.test_volume_transfers.VolumesTransfersV355Test.test_create_get_list_accept_volume_transfer [46.167944s] ... ok
-{16} tempest.api.volume.test_volumes_snapshots.VolumesSnapshotTestJSON.test_snapshot_backup ... SKIPPED: Cinder backup is disabled
-{32} tempest.api.volume.test_volumes_list.VolumesListTestJSON.test_volume_list [0.084632s] ... ok
-{32} tempest.api.volume.test_volumes_list.VolumesListTestJSON.test_volume_list_by_name [0.090695s] ... ok
-{32} tempest.api.volume.test_volumes_list.VolumesListTestJSON.test_volume_list_details_by_name [0.121455s] ... ok
-{32} tempest.api.volume.test_volumes_list.VolumesListTestJSON.test_volume_list_details_pagination [0.428886s] ... ok
-{32} tempest.api.volume.test_volumes_list.VolumesListTestJSON.test_volume_list_details_with_multiple_params [0.181012s] ... ok
-{32} tempest.api.volume.test_volumes_list.VolumesListTestJSON.test_volume_list_pagination [0.712624s] ... ok
-{32} tempest.api.volume.test_volumes_list.VolumesListTestJSON.test_volume_list_param_display_name_and_status [0.049348s] ... ok
-{32} tempest.api.volume.test_volumes_list.VolumesListTestJSON.test_volume_list_with_detail_param_display_name_and_status [0.261050s] ... ok
-{32} tempest.api.volume.test_volumes_list.VolumesListTestJSON.test_volume_list_with_detail_param_marker [0.079055s] ... ok
-{32} tempest.api.volume.test_volumes_list.VolumesListTestJSON.test_volume_list_with_detail_param_metadata [0.105631s] ... ok
-{32} tempest.api.volume.test_volumes_list.VolumesListTestJSON.test_volume_list_with_details [0.113262s] ... ok
-{32} tempest.api.volume.test_volumes_list.VolumesListTestJSON.test_volume_list_with_param_metadata [0.056096s] ... ok
-{4} tempest.api.volume.test_volume_transfers.VolumesTransfersTest.test_create_get_list_accept_volume_transfer [47.928410s] ... ok
-{32} tempest.api.volume.test_volumes_list.VolumesListTestJSON.test_volumes_list_by_availability_zone [0.142840s] ... ok
-{32} tempest.api.volume.test_volumes_list.VolumesListTestJSON.test_volumes_list_by_bootable [0.136651s] ... ok
-{32} tempest.api.volume.test_volumes_list.VolumesListTestJSON.test_volumes_list_by_status [0.116403s] ... ok
-{32} tempest.api.volume.test_volumes_list.VolumesListTestJSON.test_volumes_list_details_by_availability_zone [0.108004s] ... ok
-{32} tempest.api.volume.test_volumes_list.VolumesListTestJSON.test_volumes_list_details_by_bootable [0.054448s] ... ok
-{32} tempest.api.volume.test_volumes_list.VolumesListTestJSON.test_volumes_list_details_by_status [0.105607s] ... ok
-{38} tempest.api.volume.test_volumes_snapshots_list.VolumesSnapshotListTestJSON.test_snapshot_list_param_limit [0.135475s] ... ok
-{38} tempest.api.volume.test_volumes_snapshots_list.VolumesSnapshotListTestJSON.test_snapshot_list_param_limit_equals_infinite [0.091801s] ... ok
-{38} tempest.api.volume.test_volumes_snapshots_list.VolumesSnapshotListTestJSON.test_snapshot_list_param_limit_equals_zero [0.029947s] ... ok
-{38} tempest.api.volume.test_volumes_snapshots_list.VolumesSnapshotListTestJSON.test_snapshot_list_param_marker [0.092943s] ... ok
-{38} tempest.api.volume.test_volumes_snapshots_list.VolumesSnapshotListTestJSON.test_snapshot_list_param_offset [0.054871s] ... ok
-{38} tempest.api.volume.test_volumes_snapshots_list.VolumesSnapshotListTestJSON.test_snapshot_list_param_sort_created_at_asc [0.042136s] ... ok
-{38} tempest.api.volume.test_volumes_snapshots_list.VolumesSnapshotListTestJSON.test_snapshot_list_param_sort_created_at_desc [0.025792s] ... ok
-{38} tempest.api.volume.test_volumes_snapshots_list.VolumesSnapshotListTestJSON.test_snapshot_list_param_sort_id_asc [0.049595s] ... ok
-{38} tempest.api.volume.test_volumes_snapshots_list.VolumesSnapshotListTestJSON.test_snapshot_list_param_sort_id_desc [0.058464s] ... ok
-{38} tempest.api.volume.test_volumes_snapshots_list.VolumesSnapshotListTestJSON.test_snapshot_list_param_sort_name_asc [0.066595s] ... ok
-{38} tempest.api.volume.test_volumes_snapshots_list.VolumesSnapshotListTestJSON.test_snapshot_list_param_sort_name_desc [0.091430s] ... ok
-{38} tempest.api.volume.test_volumes_snapshots_list.VolumesSnapshotListTestJSON.test_snapshots_list_details_with_params [0.110871s] ... ok
-{38} tempest.api.volume.test_volumes_snapshots_list.VolumesSnapshotListTestJSON.test_snapshots_list_with_params [0.119355s] ... ok
-{3} tempest.api.volume.admin.test_volume_quotas.VolumeQuotasAdminTestJSON.test_quota_usage [16.537787s] ... ok
-{0} tempest.api.volume.test_volumes_get.VolumesGetTest.test_volume_create_get_update_delete [72.475568s] ... ok
-{17} tempest.api.volume.admin.test_volumes_list.VolumesListAdminTestJSON.test_volume_list_param_tenant [8.426728s] ... ok
-{13} tempest.api.volume.admin.test_snapshots_actions.SnapshotsActionsTest.test_snapshot_force_delete_when_snapshot_is_creating [14.640601s] ... ok
-{7} tempest.api.volume.test_volume_transfers.VolumesTransfersV357Test.test_create_list_delete_volume_transfer [16.038023s] ... ok
-{16} tempest.api.volume.test_volumes_snapshots.VolumesSnapshotTestJSON.test_snapshot_create_get_list_update_delete [15.591790s] ... ok
-{6} tempest.api.volume.test_volume_transfers.VolumesTransfersV355Test.test_create_list_delete_volume_transfer [17.140284s] ... ok
-{4} tempest.api.volume.test_volume_transfers.VolumesTransfersTest.test_create_list_delete_volume_transfer [15.163470s] ... ok
-{2} tempest.api.volume.test_volume_delete_cascade.VolumesDeleteCascade.test_volume_delete_cascade [84.966615s] ... ok
-{1} tempest.api.volume.test_volumes_clone.VolumesCloneTest.test_create_from_volume [83.869424s] ... ok
-{3} tempest.api.volume.admin.test_volume_quotas.VolumeQuotasAdminTestJSON.test_quota_usage_after_volume_transfer [16.596957s] ... ok
-{3} tempest.api.volume.admin.test_volume_quotas.VolumeQuotasAdminTestJSON.test_show_quota_usage [0.087345s] ... ok
-{14} tempest.api.volume.test_volumes_negative.VolumesNegativeTest.test_attach_volumes_with_nonexistent_volume_id [61.063004s] ... ok
-{13} tempest.api.volume.admin.test_snapshots_actions.SnapshotsActionsTest.test_snapshot_force_delete_when_snapshot_is_deleting [12.387536s] ... ok
-{3} tempest.api.volume.admin.test_volume_quotas.VolumeQuotasAdminTestJSON.test_update_all_quota_resources_for_tenant [2.798858s] ... ok
-{5} tempest.api.volume.admin.test_volumes_actions.VolumesActionsTest.test_volume_force_delete_when_volume_is_attaching [11.254141s] ... ok
-{14} tempest.api.volume.test_volumes_negative.VolumesNegativeTest.test_create_volume_from_deactivated_image [5.108977s] ... ok
-{13} tempest.api.volume.admin.test_snapshots_actions.SnapshotsActionsTest.test_snapshot_force_delete_when_snapshot_is_error [7.677646s] ... ok
-{14} tempest.api.volume.test_volumes_negative.VolumesNegativeTest.test_create_volume_from_image_with_decreasing_size [4.474549s] ... ok
-{14} tempest.api.volume.test_volumes_negative.VolumesNegativeTest.test_create_volume_with_invalid_size [0.022023s] ... ok
-{14} tempest.api.volume.test_volumes_negative.VolumesNegativeTest.test_create_volume_with_nonexistent_snapshot_id [0.028934s] ... ok
-{14} tempest.api.volume.test_volumes_negative.VolumesNegativeTest.test_create_volume_with_nonexistent_source_volid [0.033933s] ... ok
-{14} tempest.api.volume.test_volumes_negative.VolumesNegativeTest.test_create_volume_with_nonexistent_volume_type [0.027490s] ... ok
-{14} tempest.api.volume.test_volumes_negative.VolumesNegativeTest.test_create_volume_with_size_negative [0.018441s] ... ok
-{14} tempest.api.volume.test_volumes_negative.VolumesNegativeTest.test_create_volume_with_size_zero [0.017401s] ... ok
-{14} tempest.api.volume.test_volumes_negative.VolumesNegativeTest.test_create_volume_without_passing_size [0.016348s] ... ok
-{14} tempest.api.volume.test_volumes_negative.VolumesNegativeTest.test_delete_invalid_volume_id [0.021517s] ... ok
-{14} tempest.api.volume.test_volumes_negative.VolumesNegativeTest.test_delete_volume_without_passing_volume_id [0.007663s] ... ok
-{14} tempest.api.volume.test_volumes_negative.VolumesNegativeTest.test_detach_volumes_with_invalid_volume_id [0.025270s] ... ok
-{14} tempest.api.volume.test_volumes_negative.VolumesNegativeTest.test_get_invalid_volume_id [0.021585s] ... ok
-{14} tempest.api.volume.test_volumes_negative.VolumesNegativeTest.test_get_volume_without_passing_volume_id [0.020075s] ... ok
-{14} tempest.api.volume.test_volumes_negative.VolumesNegativeTest.test_list_volumes_detail_with_invalid_status [0.161176s] ... ok
-{14} tempest.api.volume.test_volumes_negative.VolumesNegativeTest.test_list_volumes_detail_with_nonexistent_name [0.083183s] ... ok
-{14} tempest.api.volume.test_volumes_negative.VolumesNegativeTest.test_list_volumes_with_invalid_status [0.074006s] ... ok
-{14} tempest.api.volume.test_volumes_negative.VolumesNegativeTest.test_list_volumes_with_nonexistent_name [0.083185s] ... ok
-{14} tempest.api.volume.test_volumes_negative.VolumesNegativeTest.test_reserve_volume_with_negative_volume_status [0.548117s] ... ok
-{14} tempest.api.volume.test_volumes_negative.VolumesNegativeTest.test_reserve_volume_with_nonexistent_volume_id [0.024047s] ... ok
-{14} tempest.api.volume.test_volumes_negative.VolumesNegativeTest.test_unreserve_volume_with_nonexistent_volume_id [0.243296s] ... ok
-{14} tempest.api.volume.test_volumes_negative.VolumesNegativeTest.test_update_volume_with_empty_volume_id [0.022320s] ... ok
-{14} tempest.api.volume.test_volumes_negative.VolumesNegativeTest.test_update_volume_with_invalid_volume_id [0.099711s] ... ok
-{14} tempest.api.volume.test_volumes_negative.VolumesNegativeTest.test_update_volume_with_nonexistent_volume_id [0.025888s] ... ok
-{14} tempest.api.volume.test_volumes_negative.VolumesNegativeTest.test_volume_delete_nonexistent_volume_id [0.026143s] ... ok
-{14} tempest.api.volume.test_volumes_negative.VolumesNegativeTest.test_volume_get_nonexistent_volume_id [0.023957s] ... ok
-{5} tempest.api.volume.admin.test_volumes_actions.VolumesActionsTest.test_volume_force_delete_when_volume_is_creating [9.565620s] ... ok
-{13} tempest.api.volume.admin.test_snapshots_actions.SnapshotsActionsTest.test_snapshot_force_delete_when_snapshot_is_error_deleting [6.807708s] ... ok
-{13} tempest.api.volume.admin.test_snapshots_actions.SnapshotsActionsTest.test_update_snapshot_status [0.663792s] ... ok
-{15} tempest.api.volume.test_volumes_actions.VolumesActionsTest.test_get_volume_attachment [37.933408s] ... ok
-{0} tempest.api.volume.test_volumes_get.VolumesGetTest.test_volume_create_get_update_delete_as_clone [33.844925s] ... ok
-{15} tempest.api.volume.test_volumes_actions.VolumesActionsTest.test_reserve_unreserve_volume [0.707666s] ... ok
-{3} setUpClass (tempest.api.volume.test_volumes_backup.VolumesBackupsV39Test) ... SKIPPED: Cinder backup feature disabled
-{15} tempest.api.volume.test_volumes_actions.VolumesActionsTest.test_volume_bootable [0.666486s] ... ok
-{15} tempest.api.volume.test_volumes_actions.VolumesActionsTest.test_volume_readonly_update [0.533926s] ... ok
-{5} tempest.api.volume.admin.test_volumes_actions.VolumesActionsTest.test_volume_force_delete_when_volume_is_error [7.146178s] ... ok
-{5} tempest.api.volume.admin.test_volumes_actions.VolumesActionsTest.test_volume_force_delete_when_volume_is_maintenance [8.050123s] ... ok
-{5} tempest.api.volume.admin.test_volumes_actions.VolumesActionsTest.test_volume_reset_status [6.666199s] ... ok
+{2} setUpClass (tempest.api.volume.admin.test_encrypted_volumes_extend.EncryptedVolumesExtendAttachedTest) ... SKIPPED: Attached encrypted volume extend is disabled.
+{0} setUpClass (tempest.api.volume.admin.test_multi_backend.VolumeMultiBackendTest) ... SKIPPED: Cinder multi-backend feature disabled
+{32} tempest.api.volume.test_versions.VersionsTest.test_list_versions [0.032131s] ... ok
+{26} tempest.api.volume.test_volumes_snapshots_negative.VolumesSnapshotNegativeTestJSON.test_create_snapshot_with_nonexistent_volume_id [2.520493s] ... ok
+{34} tempest.api.volume.test_extensions.ExtensionsTestJSON.test_list_extensions [2.315624s] ... ok
+{32} tempest.api.volume.test_versions.VersionsTest.test_show_version [2.427715s] ... ok
+{31} tempest.api.volume.test_volumes_get.VolumesSummaryTest.test_show_volume_summary [2.890615s] ... ok
+{26} tempest.api.volume.test_volumes_snapshots_negative.VolumesSnapshotNegativeTestJSON.test_create_snapshot_without_passing_volume_id [0.735700s] ... ok
+{37} tempest.api.volume.test_availability_zone.AvailabilityZoneTestJSON.test_get_availability_zone_list [3.586892s] ... ok
+{26} tempest.api.volume.test_volumes_snapshots_negative.VolumesSnapshotNegativeTestJSON.test_list_snapshot_invalid_param_limit [0.977983s] ... ok
+{26} tempest.api.volume.test_volumes_snapshots_negative.VolumesSnapshotNegativeTestJSON.test_list_snapshots_invalid_param_marker [0.448029s] ... ok
+{26} tempest.api.volume.test_volumes_snapshots_negative.VolumesSnapshotNegativeTestJSON.test_list_snapshots_invalid_param_sort [0.020585s] ... ok
+{8} tempest.api.volume.admin.test_volume_services.VolumesServicesTestJSON.test_get_service_by_host_name [0.089914s] ... ok
+{8} tempest.api.volume.admin.test_volume_services.VolumesServicesTestJSON.test_get_service_by_service_and_host_name [0.041296s] ... ok
+{8} tempest.api.volume.admin.test_volume_services.VolumesServicesTestJSON.test_get_service_by_service_binary_name [0.022978s] ... ok
+{23} tempest.api.volume.admin.test_volume_hosts.VolumeHostsAdminTestsJSON.test_list_hosts [1.210655s] ... ok
+{20} tempest.api.volume.admin.test_volume_types_negative.VolumeTypesNegativeTest.test_create_volume_type_encryption_nonexistent_type_id [0.983141s] ... ok
+{29} tempest.api.volume.admin.test_volume_pools.VolumePoolsAdminTestsJSON.test_get_pools_with_details [1.257841s] ... ok
+{24} tempest.api.volume.admin.test_volume_services_negative.VolumeServicesNegativeTest.test_disable_log_reason_with_no_reason [1.051337s] ... ok
+{17} tempest.api.volume.admin.test_volume_quota_classes.VolumeQuotaClassesTest.test_show_default_quota [2.165476s] ... ok
+{29} tempest.api.volume.admin.test_volume_pools.VolumePoolsAdminTestsJSON.test_get_pools_without_details [2.079749s] ... ok
+{24} tempest.api.volume.admin.test_volume_services_negative.VolumeServicesNegativeTest.test_disable_service_with_invalid_binary [1.763594s] ... ok
+{22} tempest.api.volume.admin.test_volume_types_extra_specs_negative.ExtraSpecsNegativeTest.test_create_invalid_body [1.787610s] ... ok
+{24} tempest.api.volume.admin.test_volume_services_negative.VolumeServicesNegativeTest.test_enable_service_with_invalid_host [4.030342s] ... ok
+{22} tempest.api.volume.admin.test_volume_types_extra_specs_negative.ExtraSpecsNegativeTest.test_create_none_body [10.563706s] ... ok
+{23} tempest.api.volume.admin.test_volume_hosts.VolumeHostsAdminTestsJSON.test_show_host [13.684582s] ... ok
+{24} tempest.api.volume.admin.test_volume_services_negative.VolumeServicesNegativeTest.test_freeze_host_with_invalid_host [9.224938s] ... ok
+{18} tempest.api.volume.admin.test_volume_types.VolumeTypesTest.test_volume_type_create_get_delete [19.872008s] ... ok
+{22} tempest.api.volume.admin.test_volume_types_extra_specs_negative.ExtraSpecsNegativeTest.test_create_nonexistent_type_id [6.168983s] ... ok
+{24} tempest.api.volume.admin.test_volume_services_negative.VolumeServicesNegativeTest.test_thaw_host_with_invalid_host [3.508653s] ... ok
+{27} tempest.api.volume.admin.test_backends_capabilities.BackendsCapabilitiesAdminTestsJSON.test_compare_volume_stats_values [17.452002s] ... ok
+{22} tempest.api.volume.admin.test_volume_types_extra_specs_negative.ExtraSpecsNegativeTest.test_delete_nonexistent_volume_type_id [0.804566s] ... ok
+{27} tempest.api.volume.admin.test_backends_capabilities.BackendsCapabilitiesAdminTestsJSON.test_get_capabilities_backend [0.972167s] ... ok
+{21} tempest.api.volume.admin.test_volume_types_extra_specs.VolumeTypesExtraSpecsTest.test_volume_type_extra_spec_create_get_delete [19.840815s] ... ok
+{22} tempest.api.volume.admin.test_volume_types_extra_specs_negative.ExtraSpecsNegativeTest.test_get_nonexistent_extra_spec_name [0.712775s] ... ok
+{20} tempest.api.volume.admin.test_volume_types_negative.VolumeTypesNegativeTest.test_create_volume_with_private_volume_type [20.909899s] ... ok
+{22} tempest.api.volume.admin.test_volume_types_extra_specs_negative.ExtraSpecsNegativeTest.test_get_nonexistent_volume_type_id [1.130332s] ... ok
+{20} tempest.api.volume.admin.test_volume_types_negative.VolumeTypesNegativeTest.test_create_with_empty_name [0.955353s] ... ok
+{22} tempest.api.volume.admin.test_volume_types_extra_specs_negative.ExtraSpecsNegativeTest.test_list_nonexistent_volume_type_id [0.840028s] ... ok
+{21} tempest.api.volume.admin.test_volume_types_extra_specs.VolumeTypesExtraSpecsTest.test_volume_type_extra_specs_list [2.533427s] ... ok
+{22} tempest.api.volume.admin.test_volume_types_extra_specs_negative.ExtraSpecsNegativeTest.test_update_multiple_extra_spec [0.356060s] ... ok
+{22} tempest.api.volume.admin.test_volume_types_extra_specs_negative.ExtraSpecsNegativeTest.test_update_no_body [0.182652s] ... ok
+{22} tempest.api.volume.admin.test_volume_types_extra_specs_negative.ExtraSpecsNegativeTest.test_update_none_extra_spec_id [0.974605s] ... ok
+{22} tempest.api.volume.admin.test_volume_types_extra_specs_negative.ExtraSpecsNegativeTest.test_update_nonexistent_extra_spec_id [2.182782s] ... ok
+{22} tempest.api.volume.admin.test_volume_types_extra_specs_negative.ExtraSpecsNegativeTest.test_update_nonexistent_type_id [1.410123s] ... ok
+{20} tempest.api.volume.admin.test_volume_types_negative.VolumeTypesNegativeTest.test_create_with_repeated_name [7.632607s] ... ok
+{20} tempest.api.volume.admin.test_volume_types_negative.VolumeTypesNegativeTest.test_delete_nonexistent_type_id [0.187019s] ... ok
+{20} tempest.api.volume.admin.test_volume_types_negative.VolumeTypesNegativeTest.test_get_nonexistent_type_id [0.765677s] ... ok
+{21} tempest.api.volume.admin.test_volume_types_extra_specs.VolumeTypesExtraSpecsTest.test_volume_type_extra_specs_update [8.339772s] ... ok
+{18} tempest.api.volume.admin.test_volume_types.VolumeTypesTest.test_volume_type_encryption_create_get_update_delete [14.904045s] ... ok
+{18} tempest.api.volume.admin.test_volume_types.VolumeTypesTest.test_volume_type_list [0.066616s] ... ok
+{35} tempest.api.volume.test_volume_metadata.VolumesMetadataTest.test_crud_volume_metadata [11.201758s] ... ok
+{11} tempest.api.volume.admin.test_user_messages.UserMessagesTest.test_delete_message [38.270418s] ... ok
+{16} tempest.api.volume.admin.test_qos.QosSpecsTestJSON.test_associate_disassociate_qos [38.186142s] ... ok
+{35} tempest.api.volume.test_volume_metadata.VolumesMetadataTest.test_update_show_volume_metadata_item [7.507926s] ... ok
+{39} tempest.api.volume.test_volume_absolute_limits.AbsoluteLimitsTests.test_get_volume_absolute_limits [1.285500s] ... ok
+{16} tempest.api.volume.admin.test_qos.QosSpecsTestJSON.test_create_delete_qos_with_back_end_consumer [6.817007s] ... ok
+{36} tempest.api.volume.admin.test_volume_quotas_negative.VolumeQuotasNegativeTestJSON.test_quota_volume_gigabytes [9.466293s] ... ok
+{9} tempest.api.volume.admin.test_volume_retype.VolumeRetypeWithoutMigrationTest.test_available_volume_retype [44.936631s] ... ok
+{17} tempest.api.volume.admin.test_volume_quota_classes.VolumeQuotaClassesTest.test_update_default_quota [47.828558s] ... ok
+{18} tempest.api.volume.admin.test_volume_types.VolumeTypesTest.test_volume_type_update [15.947173s] ... ok
+{16} tempest.api.volume.admin.test_qos.QosSpecsTestJSON.test_create_delete_qos_with_both_consumer [5.223300s] ... ok
+{36} tempest.api.volume.admin.test_volume_quotas_negative.VolumeQuotasNegativeTestJSON.test_quota_volumes [6.437791s] ... ok
+{7} tempest.api.volume.test_volumes_clone_negative.VolumesCloneNegativeTest.test_create_from_volume_decreasing_size [66.730569s] ... ok
+{16} tempest.api.volume.admin.test_qos.QosSpecsTestJSON.test_create_delete_qos_with_front_end_consumer [8.728677s] ... ok
+{16} tempest.api.volume.admin.test_qos.QosSpecsTestJSON.test_get_qos [0.280296s] ... ok
+{16} tempest.api.volume.admin.test_qos.QosSpecsTestJSON.test_list_qos [0.461657s] ... ok
+{8} tempest.api.volume.admin.test_volume_services.VolumesServicesTestJSON.test_get_service_by_volume_host_name [61.430247s] ... ok
+{10} tempest.api.volume.admin.test_volume_type_access.VolumeTypesAccessTest.test_volume_type_access_add [58.998921s] ... ok
+{8} tempest.api.volume.admin.test_volume_services.VolumesServicesTestJSON.test_list_services [0.185764s] ... ok
+{14} tempest.api.volume.admin.test_snapshots_actions.SnapshotsActionsTest.test_reset_snapshot_status [1.988574s] ... ok
+{28} tempest.api.volume.test_snapshot_metadata.SnapshotMetadataTestJSON.test_crud_snapshot_metadata [5.602390s] ... ok
+{16} tempest.api.volume.admin.test_qos.QosSpecsTestJSON.test_set_unset_qos_key [2.031626s] ... ok
+{3} tempest.api.volume.admin.test_volume_quotas.VolumeQuotasAdminTestJSON.test_delete_quota [56.017899s] ... ok
+{3} tempest.api.volume.admin.test_volume_quotas.VolumeQuotasAdminTestJSON.test_list_default_quotas [1.324222s] ... ok
+{3} tempest.api.volume.admin.test_volume_quotas.VolumeQuotasAdminTestJSON.test_list_quotas [0.102152s] ... ok
+{10} tempest.api.volume.admin.test_volume_type_access.VolumeTypesAccessTest.test_volume_type_access_list [5.910264s] ... ok
+{11} tempest.api.volume.admin.test_user_messages.UserMessagesTest.test_list_show_messages [28.964058s] ... ok
+{28} tempest.api.volume.test_snapshot_metadata.SnapshotMetadataTestJSON.test_update_show_snapshot_metadata_item [4.187495s] ... ok
+{33} tempest.api.volume.admin.test_volume_snapshot_quotas_negative.VolumeSnapshotQuotasNegativeTestJSON.test_quota_volume_gigabytes_snapshots [1.673480s] ... ok
+{33} tempest.api.volume.admin.test_volume_snapshot_quotas_negative.VolumeSnapshotQuotasNegativeTestJSON.test_quota_volume_snapshots [0.173179s] ... ok
+{30} tempest.api.volume.test_volumes_list.VolumesListTestJSON.test_volume_list [0.098402s] ... ok
+{30} tempest.api.volume.test_volumes_list.VolumesListTestJSON.test_volume_list_by_name [0.072667s] ... ok
+{30} tempest.api.volume.test_volumes_list.VolumesListTestJSON.test_volume_list_details_by_name [0.102836s] ... ok
+{30} tempest.api.volume.test_volumes_list.VolumesListTestJSON.test_volume_list_details_pagination [0.709353s] ... ok
+{30} tempest.api.volume.test_volumes_list.VolumesListTestJSON.test_volume_list_details_with_multiple_params [0.326841s] ... ok
+{30} tempest.api.volume.test_volumes_list.VolumesListTestJSON.test_volume_list_pagination [0.260080s] ... ok
+{30} tempest.api.volume.test_volumes_list.VolumesListTestJSON.test_volume_list_param_display_name_and_status [0.072309s] ... ok
+{30} tempest.api.volume.test_volumes_list.VolumesListTestJSON.test_volume_list_with_detail_param_display_name_and_status [0.086853s] ... ok
+{30} tempest.api.volume.test_volumes_list.VolumesListTestJSON.test_volume_list_with_detail_param_marker [0.089795s] ... ok
+{30} tempest.api.volume.test_volumes_list.VolumesListTestJSON.test_volume_list_with_detail_param_metadata [0.098302s] ... ok
+{30} tempest.api.volume.test_volumes_list.VolumesListTestJSON.test_volume_list_with_details [0.146832s] ... ok
+{30} tempest.api.volume.test_volumes_list.VolumesListTestJSON.test_volume_list_with_param_metadata [0.077421s] ... ok
+{30} tempest.api.volume.test_volumes_list.VolumesListTestJSON.test_volumes_list_by_availability_zone [0.122091s] ... ok
+{30} tempest.api.volume.test_volumes_list.VolumesListTestJSON.test_volumes_list_by_bootable [0.135453s] ... ok
+{30} tempest.api.volume.test_volumes_list.VolumesListTestJSON.test_volumes_list_by_status [0.139975s] ... ok
+{30} tempest.api.volume.test_volumes_list.VolumesListTestJSON.test_volumes_list_details_by_availability_zone [0.075146s] ... ok
+{30} tempest.api.volume.test_volumes_list.VolumesListTestJSON.test_volumes_list_details_by_bootable [0.097259s] ... ok
+{30} tempest.api.volume.test_volumes_list.VolumesListTestJSON.test_volumes_list_details_by_status [0.089428s] ... ok
+{5} tempest.api.volume.test_volume_transfers.VolumesTransfersV357Test.test_create_get_list_accept_volume_transfer [69.224150s] ... ok
+{38} tempest.api.volume.test_volumes_snapshots_list.VolumesSnapshotListTestJSON.test_snapshot_list_param_limit [0.052030s] ... ok
+{38} tempest.api.volume.test_volumes_snapshots_list.VolumesSnapshotListTestJSON.test_snapshot_list_param_limit_equals_infinite [0.103901s] ... ok
+{6} tempest.api.volume.test_volume_transfers.VolumesTransfersTest.test_create_get_list_accept_volume_transfer [69.834610s] ... ok
+{38} tempest.api.volume.test_volumes_snapshots_list.VolumesSnapshotListTestJSON.test_snapshot_list_param_limit_equals_zero [0.273778s] ... ok
+{38} tempest.api.volume.test_volumes_snapshots_list.VolumesSnapshotListTestJSON.test_snapshot_list_param_marker [0.082361s] ... ok
+{38} tempest.api.volume.test_volumes_snapshots_list.VolumesSnapshotListTestJSON.test_snapshot_list_param_offset [0.052049s] ... ok
+{38} tempest.api.volume.test_volumes_snapshots_list.VolumesSnapshotListTestJSON.test_snapshot_list_param_sort_created_at_asc [0.039621s] ... ok
+{38} tempest.api.volume.test_volumes_snapshots_list.VolumesSnapshotListTestJSON.test_snapshot_list_param_sort_created_at_desc [0.042291s] ... ok
+{38} tempest.api.volume.test_volumes_snapshots_list.VolumesSnapshotListTestJSON.test_snapshot_list_param_sort_id_asc [0.138709s] ... ok
+{38} tempest.api.volume.test_volumes_snapshots_list.VolumesSnapshotListTestJSON.test_snapshot_list_param_sort_id_desc [0.042490s] ... ok
+{38} tempest.api.volume.test_volumes_snapshots_list.VolumesSnapshotListTestJSON.test_snapshot_list_param_sort_name_asc [0.033455s] ... ok
+{38} tempest.api.volume.test_volumes_snapshots_list.VolumesSnapshotListTestJSON.test_snapshot_list_param_sort_name_desc [0.035256s] ... ok
+{38} tempest.api.volume.test_volumes_snapshots_list.VolumesSnapshotListTestJSON.test_snapshots_list_details_with_params [0.138893s] ... ok
+{38} tempest.api.volume.test_volumes_snapshots_list.VolumesSnapshotListTestJSON.test_snapshots_list_with_params [0.122130s] ... ok
+{14} tempest.api.volume.admin.test_snapshots_actions.SnapshotsActionsTest.test_snapshot_force_delete_when_snapshot_is_creating [15.272178s] ... ok
+{4} tempest.api.volume.test_volume_transfers.VolumesTransfersV355Test.test_create_get_list_accept_volume_transfer [75.092961s] ... ok
+{0} tempest.api.volume.test_volumes_get.VolumesGetTest.test_volume_create_get_update_delete [87.405671s] ... ok
+{19} tempest.api.volume.test_volumes_snapshots.VolumesSnapshotTestJSON.test_snapshot_backup ... SKIPPED: Cinder backup is disabled
+{2} tempest.api.volume.test_volumes_clone.VolumesCloneTest.test_create_from_volume [93.074007s] ... ok
+{3} tempest.api.volume.admin.test_volume_quotas.VolumeQuotasAdminTestJSON.test_quota_usage [19.111740s] ... ok
+{25} tempest.api.volume.admin.test_volumes_list.VolumesListAdminTestJSON.test_volume_list_param_tenant [9.798610s] ... ok
+{1} tempest.api.volume.test_volume_delete_cascade.VolumesDeleteCascade.test_volume_delete_cascade [95.245277s] ... ok
+{5} tempest.api.volume.test_volume_transfers.VolumesTransfersV357Test.test_create_list_delete_volume_transfer [15.593978s] ... ok
+{6} tempest.api.volume.test_volume_transfers.VolumesTransfersTest.test_create_list_delete_volume_transfer [16.267855s] ... ok
+{1} setUpClass (tempest.api.volume.test_volumes_backup.VolumesBackupsV39Test) ... SKIPPED: Cinder backup feature disabled
+{14} tempest.api.volume.admin.test_snapshots_actions.SnapshotsActionsTest.test_snapshot_force_delete_when_snapshot_is_deleting [14.742220s] ... ok
+{4} tempest.api.volume.test_volume_transfers.VolumesTransfersV355Test.test_create_list_delete_volume_transfer [15.904995s] ... ok
+{19} tempest.api.volume.test_volumes_snapshots.VolumesSnapshotTestJSON.test_snapshot_create_get_list_update_delete [13.493624s] ... ok
+{12} tempest.api.volume.admin.test_volumes_actions.VolumesActionsTest.test_volume_force_delete_when_volume_is_attaching [10.045898s] ... ok
+{14} tempest.api.volume.admin.test_snapshots_actions.SnapshotsActionsTest.test_snapshot_force_delete_when_snapshot_is_error [8.472976s] ... ok
+{3} tempest.api.volume.admin.test_volume_quotas.VolumeQuotasAdminTestJSON.test_quota_usage_after_volume_transfer [17.092086s] ... ok
+{3} tempest.api.volume.admin.test_volume_quotas.VolumeQuotasAdminTestJSON.test_show_quota_usage [0.092062s] ... ok
+{13} tempest.api.volume.test_volumes_negative.VolumesNegativeTest.test_attach_volumes_with_nonexistent_volume_id [84.352458s] ... ok
+{5} setUpClass (tempest.api.volume.test_volumes_backup.VolumesBackupsTest) ... SKIPPED: Cinder backup feature disabled
+{3} tempest.api.volume.admin.test_volume_quotas.VolumeQuotasAdminTestJSON.test_update_all_quota_resources_for_tenant [4.092863s] ... ok
+{13} tempest.api.volume.test_volumes_negative.VolumesNegativeTest.test_create_volume_from_deactivated_image [5.807312s] ... ok
+{12} tempest.api.volume.admin.test_volumes_actions.VolumesActionsTest.test_volume_force_delete_when_volume_is_creating [8.725668s] ... ok
+{14} tempest.api.volume.admin.test_snapshots_actions.SnapshotsActionsTest.test_snapshot_force_delete_when_snapshot_is_error_deleting [8.447309s] ... ok
+{14} tempest.api.volume.admin.test_snapshots_actions.SnapshotsActionsTest.test_update_snapshot_status [0.939051s] ... ok
+{13} tempest.api.volume.test_volumes_negative.VolumesNegativeTest.test_create_volume_from_image_with_decreasing_size [3.522078s] ... ok
+{13} tempest.api.volume.test_volumes_negative.VolumesNegativeTest.test_create_volume_with_invalid_size [0.044400s] ... ok
+{13} tempest.api.volume.test_volumes_negative.VolumesNegativeTest.test_create_volume_with_nonexistent_snapshot_id [0.225042s] ... ok
+{13} tempest.api.volume.test_volumes_negative.VolumesNegativeTest.test_create_volume_with_nonexistent_source_volid [0.134592s] ... ok
+{13} tempest.api.volume.test_volumes_negative.VolumesNegativeTest.test_create_volume_with_nonexistent_volume_type [0.063836s] ... ok
+{13} tempest.api.volume.test_volumes_negative.VolumesNegativeTest.test_create_volume_with_size_negative [0.017722s] ... ok
+{13} tempest.api.volume.test_volumes_negative.VolumesNegativeTest.test_create_volume_with_size_zero [0.020430s] ... ok
+{13} tempest.api.volume.test_volumes_negative.VolumesNegativeTest.test_create_volume_without_passing_size [0.016873s] ... ok
+{13} tempest.api.volume.test_volumes_negative.VolumesNegativeTest.test_delete_invalid_volume_id [0.025889s] ... ok
+{13} tempest.api.volume.test_volumes_negative.VolumesNegativeTest.test_delete_volume_without_passing_volume_id [0.010247s] ... ok
+{13} tempest.api.volume.test_volumes_negative.VolumesNegativeTest.test_detach_volumes_with_invalid_volume_id [0.028528s] ... ok
+{13} tempest.api.volume.test_volumes_negative.VolumesNegativeTest.test_get_invalid_volume_id [0.025070s] ... ok
+{13} tempest.api.volume.test_volumes_negative.VolumesNegativeTest.test_get_volume_without_passing_volume_id [0.010061s] ... ok
+{13} tempest.api.volume.test_volumes_negative.VolumesNegativeTest.test_list_volumes_detail_with_invalid_status [0.125505s] ... ok
+{13} tempest.api.volume.test_volumes_negative.VolumesNegativeTest.test_list_volumes_detail_with_nonexistent_name [0.096903s] ... ok
+{13} tempest.api.volume.test_volumes_negative.VolumesNegativeTest.test_list_volumes_with_invalid_status [0.084395s] ... ok
+{13} tempest.api.volume.test_volumes_negative.VolumesNegativeTest.test_list_volumes_with_nonexistent_name [0.074880s] ... ok
+{13} tempest.api.volume.test_volumes_negative.VolumesNegativeTest.test_reserve_volume_with_negative_volume_status [0.377184s] ... ok
+{13} tempest.api.volume.test_volumes_negative.VolumesNegativeTest.test_reserve_volume_with_nonexistent_volume_id [0.068224s] ... ok
+{13} tempest.api.volume.test_volumes_negative.VolumesNegativeTest.test_unreserve_volume_with_nonexistent_volume_id [0.056291s] ... ok
+{13} tempest.api.volume.test_volumes_negative.VolumesNegativeTest.test_update_volume_with_empty_volume_id [0.015093s] ... ok
+{13} tempest.api.volume.test_volumes_negative.VolumesNegativeTest.test_update_volume_with_invalid_volume_id [0.049416s] ... ok
+{13} tempest.api.volume.test_volumes_negative.VolumesNegativeTest.test_update_volume_with_nonexistent_volume_id [0.017451s] ... ok
+{13} tempest.api.volume.test_volumes_negative.VolumesNegativeTest.test_volume_delete_nonexistent_volume_id [0.022030s] ... ok
+{13} tempest.api.volume.test_volumes_negative.VolumesNegativeTest.test_volume_get_nonexistent_volume_id [0.023276s] ... ok
+{15} tempest.api.volume.test_volumes_actions.VolumesActionsTest.test_get_volume_attachment [43.468530s] ... ok
+{15} tempest.api.volume.test_volumes_actions.VolumesActionsTest.test_reserve_unreserve_volume [0.475066s] ... ok
+{0} tempest.api.volume.test_volumes_get.VolumesGetTest.test_volume_create_get_update_delete_as_clone [36.169728s] ... ok
+{15} tempest.api.volume.test_volumes_actions.VolumesActionsTest.test_volume_bootable [0.419414s] ... ok
+{12} tempest.api.volume.admin.test_volumes_actions.VolumesActionsTest.test_volume_force_delete_when_volume_is_error [7.371940s] ... ok
+{15} tempest.api.volume.test_volumes_actions.VolumesActionsTest.test_volume_readonly_update [0.523245s] ... ok
+{3} setUpClass (tempest.api.volume.admin.test_volumes_backup.VolumesBackupsAdminTest) ... SKIPPED: Cinder backup feature disabled
+{12} tempest.api.volume.admin.test_volumes_actions.VolumesActionsTest.test_volume_force_delete_when_volume_is_maintenance [8.004368s] ... ok
+{12} tempest.api.volume.admin.test_volumes_actions.VolumesActionsTest.test_volume_reset_status [7.799780s] ... ok
 
 ======
 Totals
 ======
-Ran: 174 tests in 133.7172 sec.
+Ran: 174 tests in 143.8115 sec.
  - Passed: 167
  - Skipped: 7
  - Expected Fail: 0
  - Unexpected Success: 0
  - Failed: 0
-Sum of execute time for each test: 1219.0165 sec.
+Sum of execute time for each test: 1607.9912 sec.
 
 ==============
 Worker Balance
 ==============
- - Worker 0 (3 tests) => 0:01:56.730208
- - Worker 1 (2 tests) => 0:01:36.151104
- - Worker 2 (2 tests) => 0:01:34.330728
- - Worker 3 (8 tests) => 0:01:22.680856
- - Worker 4 (3 tests) => 0:01:34.225264
- - Worker 5 (6 tests) => 0:02:13.638848
- - Worker 6 (2 tests) => 0:01:03.325182
- - Worker 7 (2 tests) => 0:01:00.532021
- - Worker 8 (1 tests) => 0:00:54.343192
- - Worker 9 (5 tests) => 0:00:44.263082
- - Worker 10 (2 tests) => 0:00:38.249037
- - Worker 11 (1 tests) => 0:00:35.867888
- - Worker 12 (2 tests) => 0:00:42.177190
- - Worker 13 (6 tests) => 0:00:43.210924
- - Worker 14 (27 tests) => 0:01:12.358390
- - Worker 15 (4 tests) => 0:00:39.858283
- - Worker 16 (2 tests) => 0:00:15.602055
- - Worker 17 (1 tests) => 0:00:08.426728
- - Worker 18 (2 tests) => 0:00:33.431719
- - Worker 19 (7 tests) => 0:00:37.544800
- - Worker 20 (4 tests) => 0:00:39.291198
- - Worker 21 (6 tests) => 0:00:21.893732
- - Worker 22 (3 tests) => 0:00:23.132871
- - Worker 23 (12 tests) => 0:00:16.799197
- - Worker 24 (2 tests) => 0:00:06.638909
- - Worker 25 (5 tests) => 0:00:08.903076
- - Worker 26 (2 tests) => 0:00:02.520889
- - Worker 27 (1 tests) => 0:00:06.580755
- - Worker 28 (2 tests) => 0:00:06.015975
- - Worker 29 (5 tests) => 0:00:14.656413
- - Worker 30 (1 tests) => 0:00:03.920668
- - Worker 31 (1 tests) => 0:00:05.783417
- - Worker 32 (18 tests) => 0:00:02.985134
- - Worker 33 (2 tests) => 0:00:03.826430
- - Worker 34 (2 tests) => 0:00:10.814522
- - Worker 35 (2 tests) => 0:00:03.046279
- - Worker 36 (2 tests) => 0:00:01.363699
- - Worker 37 (2 tests) => 0:00:03.154107
- - Worker 38 (13 tests) => 0:00:00.990283
- - Worker 39 (1 tests) => 0:00:00.332380
+ - Worker 0 (3 tests) => 0:02:07.087222
+ - Worker 1 (2 tests) => 0:01:40.948648
+ - Worker 2 (2 tests) => 0:01:35.707656
+ - Worker 3 (8 tests) => 0:01:50.940973
+ - Worker 4 (3 tests) => 0:01:46.931319
+ - Worker 5 (3 tests) => 0:01:40.678690
+ - Worker 6 (2 tests) => 0:01:26.124595
+ - Worker 7 (1 tests) => 0:01:06.730569
+ - Worker 8 (5 tests) => 0:01:01.787169
+ - Worker 9 (1 tests) => 0:00:44.936631
+ - Worker 10 (2 tests) => 0:01:04.919210
+ - Worker 11 (2 tests) => 0:01:07.247390
+ - Worker 12 (5 tests) => 0:00:41.961561
+ - Worker 13 (27 tests) => 0:01:35.362759
+ - Worker 14 (6 tests) => 0:00:49.878423
+ - Worker 15 (4 tests) => 0:00:44.903295
+ - Worker 16 (7 tests) => 0:01:01.746574
+ - Worker 17 (2 tests) => 0:00:50.000503
+ - Worker 18 (4 tests) => 0:00:50.802202
+ - Worker 19 (2 tests) => 0:00:13.508287
+ - Worker 20 (6 tests) => 0:00:31.447482
+ - Worker 21 (3 tests) => 0:00:30.725608
+ - Worker 22 (12 tests) => 0:00:27.135029
+ - Worker 23 (2 tests) => 0:00:14.901859
+ - Worker 24 (5 tests) => 0:00:19.592610
+ - Worker 25 (1 tests) => 0:00:09.798610
+ - Worker 26 (5 tests) => 0:00:04.712909
+ - Worker 27 (2 tests) => 0:00:18.434914
+ - Worker 28 (2 tests) => 0:00:09.800812
+ - Worker 29 (2 tests) => 0:00:03.347804
+ - Worker 30 (18 tests) => 0:00:02.821358
+ - Worker 31 (1 tests) => 0:00:02.890615
+ - Worker 32 (2 tests) => 0:00:02.471718
+ - Worker 33 (2 tests) => 0:00:01.857018
+ - Worker 34 (1 tests) => 0:00:02.315624
+ - Worker 35 (2 tests) => 0:00:18.725537
+ - Worker 36 (2 tests) => 0:00:15.915230
+ - Worker 37 (1 tests) => 0:00:03.586892
+ - Worker 38 (13 tests) => 0:00:01.178590
+ - Worker 39 (1 tests) => 0:00:01.285500
