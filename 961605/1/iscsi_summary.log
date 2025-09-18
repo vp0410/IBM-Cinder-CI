@@ -1,0 +1,851 @@
+{5} setUpClass (tempest.api.volume.admin.test_volume_retype.VolumeRetypeWithMigrationTest) ... SKIPPED: Cinder multi-backend feature disabled
+{0} setUpClass (tempest.api.volume.test_volumes_backup.VolumesBackupsV39Test) ... SKIPPED: Cinder backup feature disabled
+{4} setUpClass (tempest.api.volume.admin.test_encrypted_volumes_extend.EncryptedVolumesExtendAttachedTest) ... SKIPPED: Attached encrypted volume extend is disabled.
+{3} setUpClass (tempest.api.volume.admin.test_multi_backend.VolumeMultiBackendTest) ... SKIPPED: Cinder multi-backend feature disabled
+{37} tempest.api.volume.test_versions.VersionsTest.test_list_versions [1.548867s] ... ok
+{35} tempest.api.volume.test_extensions.ExtensionsTestJSON.test_list_extensions [3.880932s] ... ok
+{29} tempest.api.volume.test_volumes_snapshots_negative.VolumesSnapshotNegativeTestJSON.test_create_snapshot_with_nonexistent_volume_id [3.164034s] ... ok
+{36} tempest.api.volume.test_availability_zone.AvailabilityZoneTestJSON.test_get_availability_zone_list [1.971644s] ... ok
+{34} tempest.api.volume.test_volumes_get.VolumesSummaryTest.test_show_volume_summary [4.415317s] ... ok
+{29} tempest.api.volume.test_volumes_snapshots_negative.VolumesSnapshotNegativeTestJSON.test_create_snapshot_without_passing_volume_id [2.076322s] ... ok
+{37} tempest.api.volume.test_versions.VersionsTest.test_show_version [3.357897s] ... ok
+{29} tempest.api.volume.test_volumes_snapshots_negative.VolumesSnapshotNegativeTestJSON.test_list_snapshot_invalid_param_limit [1.660307s] ... ok
+{12} tempest.api.volume.admin.test_volume_quota_classes.VolumeQuotaClassesTest.test_show_default_quota [2.948946s] ... ok
+{32} tempest.api.volume.admin.test_volume_pools.VolumePoolsAdminTestsJSON.test_get_pools_with_details [2.540342s] ... ok
+{10} tempest.api.volume.admin.test_volume_services.VolumesServicesTestJSON.test_get_service_by_host_name [1.388963s] ... ok
+{20} tempest.api.volume.admin.test_volume_hosts.VolumeHostsAdminTestsJSON.test_list_hosts [1.525373s] ... ok
+{29} tempest.api.volume.test_volumes_snapshots_negative.VolumesSnapshotNegativeTestJSON.test_list_snapshots_invalid_param_marker [1.456996s] ... ok
+{14} tempest.api.volume.admin.test_volume_types_negative.VolumeTypesNegativeTest.test_create_volume_type_encryption_nonexistent_type_id [4.520098s] ... ok
+{26} tempest.api.volume.admin.test_volume_services_negative.VolumeServicesNegativeTest.test_disable_log_reason_with_no_reason [3.203307s] ... ok
+{32} tempest.api.volume.admin.test_volume_pools.VolumePoolsAdminTestsJSON.test_get_pools_without_details [3.714700s] ... ok
+{10} tempest.api.volume.admin.test_volume_services.VolumesServicesTestJSON.test_get_service_by_service_and_host_name [3.707430s] ... ok
+{29} tempest.api.volume.test_volumes_snapshots_negative.VolumesSnapshotNegativeTestJSON.test_list_snapshots_invalid_param_sort [3.468497s] ... ok
+{18} tempest.api.volume.admin.test_volume_types_extra_specs_negative.ExtraSpecsNegativeTest.test_create_invalid_body [3.367460s] ... ok
+{26} tempest.api.volume.admin.test_volume_services_negative.VolumeServicesNegativeTest.test_disable_service_with_invalid_binary [1.934227s] ... ok
+{10} tempest.api.volume.admin.test_volume_services.VolumesServicesTestJSON.test_get_service_by_service_binary_name [1.594366s] ... ok
+{18} tempest.api.volume.admin.test_volume_types_extra_specs_negative.ExtraSpecsNegativeTest.test_create_none_body [1.533013s] ... ok
+{2} tempest.api.volume.admin.test_volume_types.VolumeTypesTest.test_volume_type_create_get_delete [10.367777s] ... ok
+{31} tempest.api.volume.admin.test_backends_capabilities.BackendsCapabilitiesAdminTestsJSON.test_compare_volume_stats_values [5.872615s] ... ok
+{26} tempest.api.volume.admin.test_volume_services_negative.VolumeServicesNegativeTest.test_enable_service_with_invalid_host [0.850604s] ... ok
+{31} tempest.api.volume.admin.test_backends_capabilities.BackendsCapabilitiesAdminTestsJSON.test_get_capabilities_backend [1.415200s] ... ok
+{26} tempest.api.volume.admin.test_volume_services_negative.VolumeServicesNegativeTest.test_freeze_host_with_invalid_host [1.136593s] ... ok
+{26} tempest.api.volume.admin.test_volume_services_negative.VolumeServicesNegativeTest.test_thaw_host_with_invalid_host [0.944101s] ... ok
+{18} tempest.api.volume.admin.test_volume_types_extra_specs_negative.ExtraSpecsNegativeTest.test_create_nonexistent_type_id [3.762456s] ... ok
+{18} tempest.api.volume.admin.test_volume_types_extra_specs_negative.ExtraSpecsNegativeTest.test_delete_nonexistent_volume_type_id [0.626412s] ... ok
+{18} tempest.api.volume.admin.test_volume_types_extra_specs_negative.ExtraSpecsNegativeTest.test_get_nonexistent_extra_spec_name [0.196328s] ... ok
+{18} tempest.api.volume.admin.test_volume_types_extra_specs_negative.ExtraSpecsNegativeTest.test_get_nonexistent_volume_type_id [0.236961s] ... ok
+{18} tempest.api.volume.admin.test_volume_types_extra_specs_negative.ExtraSpecsNegativeTest.test_list_nonexistent_volume_type_id [0.138932s] ... ok
+{14} tempest.api.volume.admin.test_volume_types_negative.VolumeTypesNegativeTest.test_create_volume_with_private_volume_type [7.910783s] ... ok
+{14} tempest.api.volume.admin.test_volume_types_negative.VolumeTypesNegativeTest.test_create_with_empty_name [0.034364s] ... ok
+{18} tempest.api.volume.admin.test_volume_types_extra_specs_negative.ExtraSpecsNegativeTest.test_update_multiple_extra_spec [0.038246s] ... ok
+{18} tempest.api.volume.admin.test_volume_types_extra_specs_negative.ExtraSpecsNegativeTest.test_update_no_body [0.022735s] ... ok
+{18} tempest.api.volume.admin.test_volume_types_extra_specs_negative.ExtraSpecsNegativeTest.test_update_none_extra_spec_id [0.084430s] ... ok
+{17} tempest.api.volume.admin.test_volume_types_extra_specs.VolumeTypesExtraSpecsTest.test_volume_type_extra_spec_create_get_delete [10.775545s] ... ok
+{18} tempest.api.volume.admin.test_volume_types_extra_specs_negative.ExtraSpecsNegativeTest.test_update_nonexistent_extra_spec_id [0.056416s] ... ok
+{18} tempest.api.volume.admin.test_volume_types_extra_specs_negative.ExtraSpecsNegativeTest.test_update_nonexistent_type_id [0.188945s] ... ok
+{17} tempest.api.volume.admin.test_volume_types_extra_specs.VolumeTypesExtraSpecsTest.test_volume_type_extra_specs_list [0.380002s] ... ok
+{20} tempest.api.volume.admin.test_volume_hosts.VolumeHostsAdminTestsJSON.test_show_host [12.129922s] ... ok
+{14} tempest.api.volume.admin.test_volume_types_negative.VolumeTypesNegativeTest.test_create_with_repeated_name [1.705503s] ... ok
+{14} tempest.api.volume.admin.test_volume_types_negative.VolumeTypesNegativeTest.test_delete_nonexistent_type_id [0.020410s] ... ok
+{14} tempest.api.volume.admin.test_volume_types_negative.VolumeTypesNegativeTest.test_get_nonexistent_type_id [0.024366s] ... ok
+{2} tempest.api.volume.admin.test_volume_types.VolumeTypesTest.test_volume_type_encryption_create_get_update_delete [7.437601s] ... ok
+{17} tempest.api.volume.admin.test_volume_types_extra_specs.VolumeTypesExtraSpecsTest.test_volume_type_extra_specs_update [1.942285s] ... ok
+{2} tempest.api.volume.admin.test_volume_types.VolumeTypesTest.test_volume_type_list [0.310656s] ... ok
+{9} tempest.api.volume.admin.test_qos.QosSpecsTestJSON.test_associate_disassociate_qos [13.157925s] ... ok
+{9} tempest.api.volume.admin.test_qos.QosSpecsTestJSON.test_create_delete_qos_with_back_end_consumer [5.676614s] ... ok
+{12} tempest.api.volume.admin.test_volume_quota_classes.VolumeQuotaClassesTest.test_update_default_quota [21.129570s] ... ok
+{22} setUpClass (tempest.api.volume.admin.test_volume_retype.VolumeRetypeWithoutMigrationTest) [0.000000s] ... FAILED
+
+Captured traceback:
+~~~~~~~~~~~~~~~~~~~
+    Traceback (most recent call last):
+
+      File "/home/stguser/devstack/python-tempestconf/.venv/lib/python3.12/site-packages/tempest/test.py", line 185, in setUpClass
+    raise value.with_traceback(trace)
+
+      File "/home/stguser/devstack/python-tempestconf/.venv/lib/python3.12/site-packages/tempest/test.py", line 178, in setUpClass
+    cls.resource_setup()
+
+      File "/home/stguser/devstack/python-tempestconf/.venv/lib/python3.12/site-packages/tempest/api/volume/admin/test_volume_retype.py", line 172, in resource_setup
+    cls.src_vol_type = cls.create_volume_type('volume-type-1')
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+      File "/home/stguser/devstack/python-tempestconf/.venv/lib/python3.12/site-packages/tempest/api/volume/base.py", line 366, in create_volume_type
+    volume_type = self.admin_volume_types_client.create_volume_type(
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+      File "/home/stguser/devstack/python-tempestconf/.venv/lib/python3.12/site-packages/tempest/lib/services/volume/v3/types_client.py", line 90, in create_volume_type
+    resp, body = self.post('types', post_body)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+      File "/home/stguser/devstack/python-tempestconf/.venv/lib/python3.12/site-packages/tempest/lib/common/rest_client.py", line 314, in post
+    resp_header, resp_body = self.request(
+                             ^^^^^^^^^^^^^
+
+      File "/home/stguser/devstack/python-tempestconf/.venv/lib/python3.12/site-packages/tempest/lib/common/rest_client.py", line 762, in request
+    self._error_checker(resp, resp_body)
+
+      File "/home/stguser/devstack/python-tempestconf/.venv/lib/python3.12/site-packages/tempest/lib/common/rest_client.py", line 892, in _error_checker
+    raise exceptions.Conflict(resp_body, resp=resp)
+
+    tempest.lib.exceptions.Conflict: Conflict with state of target resource
+Details: {'code': 409, 'message': 'Volume Type volume-type-1 already exists.'}
+
+{9} tempest.api.volume.admin.test_qos.QosSpecsTestJSON.test_create_delete_qos_with_both_consumer [7.849711s] ... ok
+{25} setUpClass (tempest.api.volume.admin.test_volumes_actions.VolumesActionsTest) [0.000000s] ... FAILED
+
+Captured traceback:
+~~~~~~~~~~~~~~~~~~~
+    Traceback (most recent call last):
+
+      File "/home/stguser/devstack/python-tempestconf/.venv/lib/python3.12/site-packages/tempest/test.py", line 185, in setUpClass
+    raise value.with_traceback(trace)
+
+      File "/home/stguser/devstack/python-tempestconf/.venv/lib/python3.12/site-packages/tempest/test.py", line 170, in setUpClass
+    cls.setup_credentials()
+
+      File "/home/stguser/devstack/python-tempestconf/.venv/lib/python3.12/site-packages/tempest/api/volume/base.py", line 62, in setup_credentials
+    super(BaseVolumeTest, cls).setup_credentials()
+
+      File "/home/stguser/devstack/python-tempestconf/.venv/lib/python3.12/site-packages/tempest/test.py", line 398, in setup_credentials
+    manager = cls.get_client_manager(
+              ^^^^^^^^^^^^^^^^^^^^^^^
+
+      File "/home/stguser/devstack/python-tempestconf/.venv/lib/python3.12/site-packages/tempest/test.py", line 743, in get_client_manager
+    creds = getattr(cred_provider, credentials_method)()
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+      File "/home/stguser/devstack/python-tempestconf/.venv/lib/python3.12/site-packages/tempest/lib/common/dynamic_creds.py", line 473, in get_primary_creds
+    return self.get_project_member_creds()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+      File "/home/stguser/devstack/python-tempestconf/.venv/lib/python3.12/site-packages/tempest/lib/common/dynamic_creds.py", line 514, in get_project_member_creds
+    return self.get_credentials(['member'], scope='project')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+      File "/home/stguser/devstack/python-tempestconf/.venv/lib/python3.12/site-packages/tempest/lib/common/dynamic_creds.py", line 459, in get_credentials
+    network, subnet, router = self._create_network_resources(
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+      File "/home/stguser/devstack/python-tempestconf/.venv/lib/python3.12/site-packages/tempest/lib/common/dynamic_creds.py", line 318, in _create_network_resources
+    router = self._create_router(router_name, tenant_id)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+      File "/home/stguser/devstack/python-tempestconf/.venv/lib/python3.12/site-packages/tempest/lib/common/dynamic_creds.py", line 379, in _create_router
+    resp_body = self.routers_admin_client.create_router(**kwargs)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+      File "/home/stguser/devstack/python-tempestconf/.venv/lib/python3.12/site-packages/tempest/lib/services/network/routers_client.py", line 27, in create_router
+    return self.create_resource(uri, post_body)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+      File "/home/stguser/devstack/python-tempestconf/.venv/lib/python3.12/site-packages/tempest/lib/services/network/base.py", line 62, in create_resource
+    resp, body = self.post(req_uri, req_post_data)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+      File "/home/stguser/devstack/python-tempestconf/.venv/lib/python3.12/site-packages/tempest/lib/common/rest_client.py", line 314, in post
+    resp_header, resp_body = self.request(
+                             ^^^^^^^^^^^^^
+
+      File "/home/stguser/devstack/python-tempestconf/.venv/lib/python3.12/site-packages/tempest/lib/common/rest_client.py", line 762, in request
+    self._error_checker(resp, resp_body)
+
+      File "/home/stguser/devstack/python-tempestconf/.venv/lib/python3.12/site-packages/tempest/lib/common/rest_client.py", line 892, in _error_checker
+    raise exceptions.Conflict(resp_body, resp=resp)
+
+    tempest.lib.exceptions.Conflict: Conflict with state of target resource
+Details: {'type': 'IpAddressGenerationFailure', 'message': 'No more IP addresses available on network 0cdb1fc2-5ef2-42d1-9505-33350276d87e.', 'detail': ''}
+
+{9} tempest.api.volume.admin.test_qos.QosSpecsTestJSON.test_create_delete_qos_with_front_end_consumer [4.887630s] ... ok
+{9} tempest.api.volume.admin.test_qos.QosSpecsTestJSON.test_get_qos [0.025914s] ... ok
+{9} tempest.api.volume.admin.test_qos.QosSpecsTestJSON.test_list_qos [0.089961s] ... ok
+{21} setUpClass (tempest.api.volume.test_volumes_actions.VolumesActionsTest) [0.000000s] ... FAILED
+
+Captured traceback:
+~~~~~~~~~~~~~~~~~~~
+    Traceback (most recent call last):
+
+      File "/home/stguser/devstack/python-tempestconf/.venv/lib/python3.12/site-packages/tempest/test.py", line 185, in setUpClass
+    raise value.with_traceback(trace)
+
+      File "/home/stguser/devstack/python-tempestconf/.venv/lib/python3.12/site-packages/tempest/test.py", line 170, in setUpClass
+    cls.setup_credentials()
+
+      File "/home/stguser/devstack/python-tempestconf/.venv/lib/python3.12/site-packages/tempest/api/volume/base.py", line 62, in setup_credentials
+    super(BaseVolumeTest, cls).setup_credentials()
+
+      File "/home/stguser/devstack/python-tempestconf/.venv/lib/python3.12/site-packages/tempest/test.py", line 398, in setup_credentials
+    manager = cls.get_client_manager(
+              ^^^^^^^^^^^^^^^^^^^^^^^
+
+      File "/home/stguser/devstack/python-tempestconf/.venv/lib/python3.12/site-packages/tempest/test.py", line 743, in get_client_manager
+    creds = getattr(cred_provider, credentials_method)()
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+      File "/home/stguser/devstack/python-tempestconf/.venv/lib/python3.12/site-packages/tempest/lib/common/dynamic_creds.py", line 473, in get_primary_creds
+    return self.get_project_member_creds()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+      File "/home/stguser/devstack/python-tempestconf/.venv/lib/python3.12/site-packages/tempest/lib/common/dynamic_creds.py", line 514, in get_project_member_creds
+    return self.get_credentials(['member'], scope='project')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+      File "/home/stguser/devstack/python-tempestconf/.venv/lib/python3.12/site-packages/tempest/lib/common/dynamic_creds.py", line 459, in get_credentials
+    network, subnet, router = self._create_network_resources(
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+      File "/home/stguser/devstack/python-tempestconf/.venv/lib/python3.12/site-packages/tempest/lib/common/dynamic_creds.py", line 318, in _create_network_resources
+    router = self._create_router(router_name, tenant_id)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+      File "/home/stguser/devstack/python-tempestconf/.venv/lib/python3.12/site-packages/tempest/lib/common/dynamic_creds.py", line 379, in _create_router
+    resp_body = self.routers_admin_client.create_router(**kwargs)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+      File "/home/stguser/devstack/python-tempestconf/.venv/lib/python3.12/site-packages/tempest/lib/services/network/routers_client.py", line 27, in create_router
+    return self.create_resource(uri, post_body)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+      File "/home/stguser/devstack/python-tempestconf/.venv/lib/python3.12/site-packages/tempest/lib/services/network/base.py", line 62, in create_resource
+    resp, body = self.post(req_uri, req_post_data)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+      File "/home/stguser/devstack/python-tempestconf/.venv/lib/python3.12/site-packages/tempest/lib/common/rest_client.py", line 314, in post
+    resp_header, resp_body = self.request(
+                             ^^^^^^^^^^^^^
+
+      File "/home/stguser/devstack/python-tempestconf/.venv/lib/python3.12/site-packages/tempest/lib/common/rest_client.py", line 762, in request
+    self._error_checker(resp, resp_body)
+
+      File "/home/stguser/devstack/python-tempestconf/.venv/lib/python3.12/site-packages/tempest/lib/common/rest_client.py", line 892, in _error_checker
+    raise exceptions.Conflict(resp_body, resp=resp)
+
+    tempest.lib.exceptions.Conflict: Conflict with state of target resource
+Details: {'type': 'IpAddressGenerationFailure', 'message': 'No more IP addresses available on network 0cdb1fc2-5ef2-42d1-9505-33350276d87e.', 'detail': ''}
+
+{9} tempest.api.volume.admin.test_qos.QosSpecsTestJSON.test_set_unset_qos_key [0.815772s] ... ok
+{27} setUpClass (tempest.api.volume.test_volumes_snapshots.VolumesSnapshotTestJSON) [0.000000s] ... FAILED
+
+Captured traceback:
+~~~~~~~~~~~~~~~~~~~
+    Traceback (most recent call last):
+
+      File "/home/stguser/devstack/python-tempestconf/.venv/lib/python3.12/site-packages/tempest/test.py", line 185, in setUpClass
+    raise value.with_traceback(trace)
+
+      File "/home/stguser/devstack/python-tempestconf/.venv/lib/python3.12/site-packages/tempest/test.py", line 170, in setUpClass
+    cls.setup_credentials()
+
+      File "/home/stguser/devstack/python-tempestconf/.venv/lib/python3.12/site-packages/tempest/api/volume/base.py", line 62, in setup_credentials
+    super(BaseVolumeTest, cls).setup_credentials()
+
+      File "/home/stguser/devstack/python-tempestconf/.venv/lib/python3.12/site-packages/tempest/test.py", line 398, in setup_credentials
+    manager = cls.get_client_manager(
+              ^^^^^^^^^^^^^^^^^^^^^^^
+
+      File "/home/stguser/devstack/python-tempestconf/.venv/lib/python3.12/site-packages/tempest/test.py", line 743, in get_client_manager
+    creds = getattr(cred_provider, credentials_method)()
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+      File "/home/stguser/devstack/python-tempestconf/.venv/lib/python3.12/site-packages/tempest/lib/common/dynamic_creds.py", line 473, in get_primary_creds
+    return self.get_project_member_creds()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+      File "/home/stguser/devstack/python-tempestconf/.venv/lib/python3.12/site-packages/tempest/lib/common/dynamic_creds.py", line 514, in get_project_member_creds
+    return self.get_credentials(['member'], scope='project')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+      File "/home/stguser/devstack/python-tempestconf/.venv/lib/python3.12/site-packages/tempest/lib/common/dynamic_creds.py", line 459, in get_credentials
+    network, subnet, router = self._create_network_resources(
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+      File "/home/stguser/devstack/python-tempestconf/.venv/lib/python3.12/site-packages/tempest/lib/common/dynamic_creds.py", line 318, in _create_network_resources
+    router = self._create_router(router_name, tenant_id)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+      File "/home/stguser/devstack/python-tempestconf/.venv/lib/python3.12/site-packages/tempest/lib/common/dynamic_creds.py", line 379, in _create_router
+    resp_body = self.routers_admin_client.create_router(**kwargs)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+      File "/home/stguser/devstack/python-tempestconf/.venv/lib/python3.12/site-packages/tempest/lib/services/network/routers_client.py", line 27, in create_router
+    return self.create_resource(uri, post_body)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+      File "/home/stguser/devstack/python-tempestconf/.venv/lib/python3.12/site-packages/tempest/lib/services/network/base.py", line 62, in create_resource
+    resp, body = self.post(req_uri, req_post_data)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+      File "/home/stguser/devstack/python-tempestconf/.venv/lib/python3.12/site-packages/tempest/lib/common/rest_client.py", line 314, in post
+    resp_header, resp_body = self.request(
+                             ^^^^^^^^^^^^^
+
+      File "/home/stguser/devstack/python-tempestconf/.venv/lib/python3.12/site-packages/tempest/lib/common/rest_client.py", line 762, in request
+    self._error_checker(resp, resp_body)
+
+      File "/home/stguser/devstack/python-tempestconf/.venv/lib/python3.12/site-packages/tempest/lib/common/rest_client.py", line 892, in _error_checker
+    raise exceptions.Conflict(resp_body, resp=resp)
+
+    tempest.lib.exceptions.Conflict: Conflict with state of target resource
+Details: {'type': 'IpAddressGenerationFailure', 'message': 'No more IP addresses available on network 0cdb1fc2-5ef2-42d1-9505-33350276d87e.', 'detail': ''}
+
+{2} tempest.api.volume.admin.test_volume_types.VolumeTypesTest.test_volume_type_update [28.639695s] ... ok
+{3} tempest.api.volume.admin.test_volume_quotas.VolumeQuotasAdminTestJSON.test_delete_quota [39.711669s] ... ok
+{3} tempest.api.volume.admin.test_volume_quotas.VolumeQuotasAdminTestJSON.test_list_default_quotas [0.427479s] ... ok
+{3} tempest.api.volume.admin.test_volume_quotas.VolumeQuotasAdminTestJSON.test_list_quotas [0.508881s] ... ok
+{2} setUpClass (tempest.api.volume.admin.test_volumes_backup.VolumesBackupsAdminTest) ... SKIPPED: Cinder backup feature disabled
+{28} tempest.api.volume.test_volume_absolute_limits.AbsoluteLimitsTests.test_get_volume_absolute_limits [0.759250s] ... ok
+{8} tempest.api.volume.admin.test_user_messages.UserMessagesTest.test_delete_message [59.205014s] ... ok
+{8} tempest.api.volume.admin.test_user_messages.UserMessagesTest.test_list_show_messages [4.951045s] ... ok
+{19} tempest.api.volume.test_volume_metadata.VolumesMetadataTest.test_crud_volume_metadata [1.484639s] ... ok
+{16} tempest.api.volume.test_volumes_negative.VolumesNegativeTest.test_attach_volumes_with_nonexistent_volume_id [8.381471s] ... FAILED
+
+Captured traceback:
+~~~~~~~~~~~~~~~~~~~
+    Traceback (most recent call last):
+
+      File "/home/stguser/devstack/python-tempestconf/.venv/lib/python3.12/site-packages/tempest/common/utils/__init__.py", line 65, in wrapper
+    return f(*func_args, **func_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+      File "/home/stguser/devstack/python-tempestconf/.venv/lib/python3.12/site-packages/tempest/api/volume/test_volumes_negative.py", line 188, in test_attach_volumes_with_nonexistent_volume_id
+    server = self.create_server()
+             ^^^^^^^^^^^^^^^^^^^^
+
+      File "/home/stguser/devstack/python-tempestconf/.venv/lib/python3.12/site-packages/tempest/api/volume/base.py", line 270, in create_server
+    body, _ = compute.create_test_server(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+      File "/home/stguser/devstack/python-tempestconf/.venv/lib/python3.12/site-packages/tempest/common/compute.py", line 343, in create_test_server
+    with excutils.save_and_reraise_exception():
+
+      File "/home/stguser/devstack/python-tempestconf/.venv/lib/python3.12/site-packages/oslo_utils/excutils.py", line 227, in __exit__
+    self.force_reraise()
+
+      File "/home/stguser/devstack/python-tempestconf/.venv/lib/python3.12/site-packages/oslo_utils/excutils.py", line 200, in force_reraise
+    raise self.value
+
+      File "/home/stguser/devstack/python-tempestconf/.venv/lib/python3.12/site-packages/tempest/common/compute.py", line 326, in create_test_server
+    server = waiters.wait_for_server_status(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+      File "/home/stguser/devstack/python-tempestconf/.venv/lib/python3.12/site-packages/tempest/common/waiters.py", line 80, in wait_for_server_status
+    raise exceptions.BuildErrorException(details, server_id=server_id)
+
+    tempest.exceptions.BuildErrorException: Server 56512a7b-3f12-4515-bc86-77fc5e5c99bb failed to build and is in ERROR status
+Details: Fault: {'code': 500, 'created': '2025-09-18T08:20:43Z', 'message': 'No valid host was found. There are not enough hosts available.'}. Request ID of server operation performed before checking the server status req-89711fc2-f6cc-4892-90ec-fff509c8f07f.
+
+
+Captured pythonlogging:
+~~~~~~~~~~~~~~~~~~~~~~~
+    2025-09-18 08:20:39,648 383965 INFO     [tempest.lib.common.rest_client] Request (VolumesNegativeTest:test_attach_volumes_with_nonexistent_volume_id): 201 POST http://9.180.170.14/identity/v3/auth/tokens 0.189s
+2025-09-18 08:20:39,649 383965 DEBUG    [tempest.lib.common.rest_client] Request - Headers: {'Content-Type': 'application/json', 'Accept': 'application/json'}
+        Body: <omitted>
+    Response - Headers: {'date': 'Thu, 18 Sep 2025 08:20:39 GMT', 'server': 'Apache/2.4.58 (Ubuntu)', 'content-type': 'application/json', 'content-length': '2504', 'x-subject-token': '<omitted>', 'vary': 'X-Auth-Token', 'x-openstack-request-id': 'req-a9625f5a-20c2-42d0-b918-c91c4a7d76a3', 'connection': 'close', 'status': '201', 'content-location': 'http://9.180.170.14/identity/v3/auth/tokens'}
+        Body: b'{"token": {"methods": ["password"], "user": {"domain": {"id": "default", "name": "Default"}, "id": "5b8a7c1dbbee4a32bb6d8b603b56f25d", "name": "tempest-VolumesNegativeTest-592992667-project-member", "password_expires_at": null}, "audit_ids": ["pYcqWs0fQd6sGuhE3JIpVQ"], "expires_at": "2025-09-18T09:20:39.000000Z", "issued_at": "2025-09-18T08:20:39.000000Z", "project": {"domain": {"id": "default", "name": "Default"}, "id": "28a37bee88f84021b12c940eed4c9521", "name": "tempest-VolumesNegativeTest-592992667"}, "is_domain": false, "roles": [{"id": "0318ff2ff2ad4fe09a237fa5e50f6f5e", "name": "member"}, {"id": "a4702ed7d4924839ac242110be92a2e7", "name": "reader"}], "catalog": [{"endpoints": [{"id": "d6c766b1e6ad4c98a760198d1a6b1df5", "interface": "public", "region_id": "RegionOne", "url": "http://9.180.170.14/image", "region": "RegionOne"}], "id": "0c66eabb6e174632ba37e112ade6910b", "type": "image", "name": "glance"}, {"endpoints": [{"id": "6b7996518fd3420e913478ccc29baf1e", "interface": "public", "region_id": "RegionOne", "url": "http://9.180.170.14/volume/v3", "region": "RegionOne"}], "id": "15ca64b596d24cb5af8c4eee2b076782", "type": "block-storage", "name": "cinder"}, {"endpoints": [{"id": "eb2749a58ec24dfb94178686d693c5cf", "interface": "public", "region_id": "RegionOne", "url": "http://9.180.170.14/compute/v2/28a37bee88f84021b12c940eed4c9521", "region": "RegionOne"}], "id": "34084b350dbc4f95b11dbf5b69499358", "type": "compute_legacy", "name": "nova_legacy"}, {"endpoints": [{"id": "db918ce86a8144c5bf984ac6cd3965ec", "interface": "public", "region_id": "RegionOne", "url": "http://9.180.170.14/placement", "region": "RegionOne"}], "id": "7f822a9ddd874a49998cb8a886c187e0", "type": "placement", "name": "placement"}, {"endpoints": [{"id": "f731e3bc851d425198b759da0d77cf5d", "interface": "public", "region_id": "RegionOne", "url": "http://9.180.170.14:9696/networking", "region": "RegionOne"}], "id": "8125845998564568b87ba757d7b63c81", "type": "network", "name": "neutron"}, {"endpoints": [{"id": "9012c0ae45834805869e04e0209b4dab", "interface": "public", "region_id": "RegionOne", "url": "http://9.180.170.14/identity", "region": "RegionOne"}], "id": "8664912605c04c888b898d2ec84e91bf", "type": "identity", "name": "keystone"}, {"endpoints": [{"id": "d794c89b75a0464f8ba6fd204cab0ed6", "interface": "public", "region_id": "RegionOne", "url": "http://9.180.170.14/compute/v2.1", "region": "RegionOne"}], "id": "c5587a973a6140f1977d88ed7c7983e3", "type": "compute", "name": "nova"}]}}'
+2025-09-18 08:20:39,649 383965 INFO     [tempest.lib.common.fixed_network] (VolumesNegativeTest:test_attach_volumes_with_nonexistent_volume_id) Found network None available for tenant
+2025-09-18 08:20:40,973 383965 INFO     [tempest.lib.common.rest_client] Request (VolumesNegativeTest:test_attach_volumes_with_nonexistent_volume_id): 202 POST http://9.180.170.14/compute/v2.1/servers 1.322s
+2025-09-18 08:20:40,973 383965 DEBUG    [tempest.lib.common.rest_client] Request - Headers: {'Content-Type': 'application/json', 'Accept': 'application/json', 'X-Auth-Token': '<omitted>'}
+        Body: {"server": {"name": "tempest-VolumesNegativeTest-instance-1166109036", "imageRef": "e0ae62a3-91c6-40f7-8147-acab952b63ac", "flavorRef": "42"}}
+    Response - Headers: {'date': 'Thu, 18 Sep 
+    2025 08:20:39 GMT', 'server': 'Apache/2.4.58 (Ubuntu)', 'content-length': '382', 'location': 'http://9.180.170.14/compute/v2.1/servers/56512a7b-3f12-4515-bc86-77fc5e5c99bb', 'content-type': 'application/json', 'openstack-api-version': 'compute 2.1', 'x-openstack-nova-api-version': '2.1', 'vary': 'OpenStack-API-Version,X-OpenStack-Nova-API-Version', 'x-openstack-request-id': 'req-89711fc2-f6cc-4892-90ec-fff509c8f07f', 'x-compute-request-id': 'req-89711fc2-f6cc-4892-90ec-fff509c8f07f', 'connection': 'close', 'status': '202', 'content-location': 'http://9.180.170.14/compute/v2.1/servers'}
+        Body: b'{"server": {"id": "56512a7b-3f12-4515-bc86-77fc5e5c99bb", "links": [{"rel": "self", "href": "http://9.180.170.14/compute/v2.1/servers/56512a7b-3f12-4515-bc86-77fc5e5c99bb"}, {"rel": "bookmark", "href": "http://9.180.170.14/compute/servers/56512a7b-3f12-4515-bc86-77fc5e5c99bb"}], "OS-DCF:diskConfig": "MANUAL", "security_groups": [{"name": "default"}], "adminPass": "3WKmUgsj5vkA"}}'
+2025-09-18 08:20:41,476 383965 INFO     [tempest.lib.common.rest_client] Request (VolumesNegativeTest:test_attach_volumes_with_nonexistent_volume_id): 200 GET http://9.180.170.14/compute/v2.1/servers/56512a7b-3f12-4515-bc86-77fc5e5c99bb 0.498s
+2025-09-18 08:20:41,476 383965 DEBUG    [tempest.lib.common.rest_client] Request - Headers: {'Content-Type': 'application/json', 'Accept': 'application/json', 'X-Auth-Token': '<omitted>'}
+        Body: None
+    Response - Headers: {'date': 'Thu, 18 Sep 2025 08:20:40 GMT', 'server': 'Apache/2.4.58 (Ubuntu)', 'content-length': '1217', 'content-type': 'application/json', 'openstack-api-version': 'compute 2.1', 'x-openstack-nova-api-version': '2.1', 'vary': 'OpenStack-API-Version,X-OpenStack-Nova-API-Version', 'x-openstack-request-id': 'req-92affde0-a69a-42df-88fc-5c91453f6b5b', 'x-compute-request-id': 'req-92affde0-a69a-42df-88fc-5c91453f6b5b', 'connection': 'close', 'status': '200', 'content-location': 'http://9.180.170.14/compute/v2.1/servers/56512a7b-3f12-4515-bc86-77fc5e5c99bb'}
+        Body: b'{"server": {"id": "56512a7b-3f12-4515-bc86-77fc5e5c99bb", "name": "tempest-VolumesNegativeTest-instance-1166109036", "status": "BUILD", "tenant_id": "28a37bee88f84021b12c940eed4c9521", "user_id": "5b8a7c1dbbee4a32bb6d8b603b56f25d", "metadata": {}, "hostId": "", "image": {"id": "e0ae62a3-91c6-40f7-8147-acab952b63ac", "links": [{"rel": "bookmark", "href": "http://9.180.170.14/compute/images/e0ae62a3-91c6-40f7-8147-acab952b63ac"}]}, "flavor": {"id": "42", "links": [{"rel": "bookmark", "href": "http://9.180.170.14/compute/flavors/42"}]}, "created": "2025-09-18T08:20:41Z", "updated": "2025-09-18T08:20:41Z", "addresses": {}, "accessIPv4": "", "accessIPv6": "", "links": [{"rel": "self", "href": "http://9.180.170.14/compute/v2.1/servers/56512a7b-3f12-4515-bc86-77fc5e5c99bb"}, {"rel": "bookmark", "href": "http://9.180.170.14/compute/servers/56512a7b-3f12-4515-bc86-77fc5e5c99bb"}], "OS-DCF:diskConfig": "MANUAL", "progress": 0, "OS-EXT-AZ:availability_zone": "", "config_drive": "", "key_name": null, "OS-SRV-USG:launched_at": null, "OS-SRV-USG:terminated_at": null, "OS-EXT-STS:task_state": "scheduling", "OS-EXT-STS:vm_state": "building", "OS-EXT-STS:power_state": 0, "os-extended-volumes:volumes_attached": []}}'
+2025-09-18 08:20:42,786 383965 INFO     [tempest.lib.common.rest_client] Request (VolumesNegativeTest:test_attach_volumes_with_nonexistent_volume_id): 200 GET http://9.180.170.14/compute/v2.1/servers/56512a7b-3f12-4515-bc86-77fc5e5c99bb 0.291s
+2025-09-18 08:20:42,807 383965 DEBUG    [tempest.lib.common.rest_client] Request - Headers: {'Content-Type': 'application/json', 'Accept': 'application/json', 'X-Auth-Token': '<omitted>'}
+        Body: None
+    Response - Headers: {'date': 'Thu, 18 Sep 2025 08:20:42 GMT', 'server': 'Apache/2.4.58 (Ubuntu)', 'content-length': '1217', 'content-type': 'application/json', 'openstack-api-version': 'compute 2.1', 'x-openstack-nova-api-version': '2.1', 'vary': 'OpenStack-API-Version,X-OpenStack-Nova-API-Version', 'x-openstack-request-id': 'req-0c827212-761b-427d-a727-c007ce605ee7', 'x-comp
+    ute-request-id': 'req-0c827212-761b-427d-a727-c007ce605ee7', 'connection': 'close', 'status': '200', 'content-location': 'http://9.180.170.14/compute/v2.1/servers/56512a7b-3f12-4515-bc86-77fc5e5c99bb'}
+        Body: b'{"server": {"id": "56512a7b-3f12-4515-bc86-77fc5e5c99bb", "name": "tempest-VolumesNegativeTest-instance-1166109036", "status": "BUILD", "tenant_id": "28a37bee88f84021b12c940eed4c9521", "user_id": "5b8a7c1dbbee4a32bb6d8b603b56f25d", "metadata": {}, "hostId": "", "image": {"id": "e0ae62a3-91c6-40f7-8147-acab952b63ac", "links": [{"rel": "bookmark", "href": "http://9.180.170.14/compute/images/e0ae62a3-91c6-40f7-8147-acab952b63ac"}]}, "flavor": {"id": "42", "links": [{"rel": "bookmark", "href": "http://9.180.170.14/compute/flavors/42"}]}, "created": "2025-09-18T08:20:40Z", "updated": "2025-09-18T08:20:42Z", "addresses": {}, "accessIPv4": "", "accessIPv6": "", "links": [{"rel": "self", "href": "http://9.180.170.14/compute/v2.1/servers/56512a7b-3f12-4515-bc86-77fc5e5c99bb"}, {"rel": "bookmark", "href": "http://9.180.170.14/compute/servers/56512a7b-3f12-4515-bc86-77fc5e5c99bb"}], "OS-DCF:diskConfig": "MANUAL", "progress": 0, "OS-EXT-AZ:availability_zone": "", "config_drive": "", "key_name": null, "OS-SRV-USG:launched_at": null, "OS-SRV-USG:terminated_at": null, "OS-EXT-STS:task_state": "scheduling", "OS-EXT-STS:vm_state": "building", "OS-EXT-STS:power_state": 0, "os-extended-volumes:volumes_attached": []}}'
+2025-09-18 08:20:44,457 383965 INFO     [tempest.lib.common.rest_client] Request (VolumesNegativeTest:test_attach_volumes_with_nonexistent_volume_id): 200 GET http://9.180.170.14/compute/v2.1/servers/56512a7b-3f12-4515-bc86-77fc5e5c99bb 0.631s
+2025-09-18 08:20:44,457 383965 DEBUG    [tempest.lib.common.rest_client] Request - Headers: {'Content-Type': 'application/json', 'Accept': 'application/json', 'X-Auth-Token': '<omitted>'}
+        Body: None
+    Response - Headers: {'date': 'Thu, 18 Sep 2025 08:20:43 GMT', 'server': 'Apache/2.4.58 (Ubuntu)', 'content-length': '1327', 'content-type': 'application/json', 'openstack-api-version': 'compute 2.1', 'x-openstack-nova-api-version': '2.1', 'vary': 'OpenStack-API-Version,X-OpenStack-Nova-API-Version', 'x-openstack-request-id': 'req-0d5114a1-7dc3-4e64-91d7-9f7542b27b19', 'x-compute-request-id': 'req-0d5114a1-7dc3-4e64-91d7-9f7542b27b19', 'connection': 'close', 'status': '200', 'content-location': 'http://9.180.170.14/compute/v2.1/servers/56512a7b-3f12-4515-bc86-77fc5e5c99bb'}
+        Body: b'{"server": {"id": "56512a7b-3f12-4515-bc86-77fc5e5c99bb", "name": "tempest-VolumesNegativeTest-instance-1166109036", "status": "ERROR", "tenant_id": "28a37bee88f84021b12c940eed4c9521", "user_id": "5b8a7c1dbbee4a32bb6d8b603b56f25d", "metadata": {}, "hostId": "", "image": {"id": "e0ae62a3-91c6-40f7-8147-acab952b63ac", "links": [{"rel": "bookmark", "href": "http://9.180.170.14/compute/images/e0ae62a3-91c6-40f7-8147-acab952b63ac"}]}, "flavor": {"id": "42", "links": [{"rel": "bookmark", "href": "http://9.180.170.14/compute/flavors/42"}]}, "created": "2025-09-18T08:20:40Z", "updated": "2025-09-18T08:20:43Z", "addresses": {}, "accessIPv4": "", "accessIPv6": "", "links": [{"rel": "self", "href": "http://9.180.170.14/compute/v2.1/servers/56512a7b-3f12-4515-bc86-77fc5e5c99bb"}, {"rel": "bookmark", "href": "http://9.180.170.14/compute/servers/56512a7b-3f12-4515-bc86-77fc5e5c99bb"}], "OS-DCF:diskConfig": "MANUAL", "fault": {"code": 500, "created": "2025-09-18T08:20:43Z", "message": "No valid host was found. There are not enough hosts available."}, "OS-EXT-AZ:availability_zone": "", "config_drive": "", "key_name": null, "OS-SRV-USG:launched_at": null, "OS-SRV-USG:terminated_at": null, "OS-EXT-STS:task_state": null, "OS-EXT-STS:vm_state": "error", "OS-EXT-STS:power_state": 0, "os-extended-volumes:volumes_attached": []}}'
+2025-09-18 08:20:44,474 383965 INFO     [tempest.common.waiters] State transition "BUILD/scheduling" ==> "ERROR/None" after 3 second wait
+2025-09-18 08:20:47,764 383965 INFO     [tempest.lib.common.rest_client] Request (VolumesNegativeTest:test_attach_volumes_with_nonexistent_vo
+    lume_id): 204 DELETE http://9.180.170.14/compute/v2.1/servers/56512a7b-3f12-4515-bc86-77fc5e5c99bb 3.289s
+2025-09-18 08:20:47,764 383965 DEBUG    [tempest.lib.common.rest_client] Request - Headers: {'Content-Type': 'application/json', 'Accept': 'application/json', 'X-Auth-Token': '<omitted>'}
+        Body: None
+    Response - Headers: {'date': 'Thu, 18 Sep 2025 08:20:44 GMT', 'server': 'Apache/2.4.58 (Ubuntu)', 'content-type': 'application/json', 'openstack-api-version': 'compute 2.1', 'x-openstack-nova-api-version': '2.1', 'vary': 'OpenStack-API-Version,X-OpenStack-Nova-API-Version', 'x-openstack-request-id': 'req-81308baf-1ed3-4798-b1e5-41e9cd9ecb0c', 'x-compute-request-id': 'req-81308baf-1ed3-4798-b1e5-41e9cd9ecb0c', 'connection': 'close', 'status': '204', 'content-location': 'http://9.180.170.14/compute/v2.1/servers/56512a7b-3f12-4515-bc86-77fc5e5c99bb'}
+        Body: b''
+2025-09-18 08:20:47,826 383965 INFO     [tempest.lib.common.rest_client] Request (VolumesNegativeTest:test_attach_volumes_with_nonexistent_volume_id): 404 GET http://9.180.170.14/compute/v2.1/servers/56512a7b-3f12-4515-bc86-77fc5e5c99bb 0.061s
+2025-09-18 08:20:47,826 383965 DEBUG    [tempest.lib.common.rest_client] Request - Headers: {'Content-Type': 'application/json', 'Accept': 'application/json', 'X-Auth-Token': '<omitted>'}
+        Body: None
+    Response - Headers: {'date': 'Thu, 18 Sep 2025 08:20:47 GMT', 'server': 'Apache/2.4.58 (Ubuntu)', 'openstack-api-version': 'compute 2.1', 'x-openstack-nova-api-version': '2.1', 'vary': 'OpenStack-API-Version,X-OpenStack-Nova-API-Version', 'content-type': 'application/json; charset=UTF-8', 'content-length': '111', 'x-openstack-request-id': 'req-8b48aa74-d63f-4b8d-b62b-057bfa53ce7c', 'x-compute-request-id': 'req-8b48aa74-d63f-4b8d-b62b-057bfa53ce7c', 'connection': 'close', 'status': '404', 'content-location': 'http://9.180.170.14/compute/v2.1/servers/56512a7b-3f12-4515-bc86-77fc5e5c99bb'}
+        Body: b'{"itemNotFound": {"code": 404, "message": "Instance 56512a7b-3f12-4515-bc86-77fc5e5c99bb could not be found."}}'
+
+{19} tempest.api.volume.test_volume_metadata.VolumesMetadataTest.test_update_show_volume_metadata_item [0.741316s] ... ok
+{16} tempest.api.volume.test_volumes_negative.VolumesNegativeTest.test_create_volume_from_deactivated_image [4.513645s] ... ok
+{16} tempest.api.volume.test_volumes_negative.VolumesNegativeTest.test_create_volume_from_image_with_decreasing_size [4.422043s] ... ok
+{16} tempest.api.volume.test_volumes_negative.VolumesNegativeTest.test_create_volume_with_invalid_size [0.017553s] ... ok
+{16} tempest.api.volume.test_volumes_negative.VolumesNegativeTest.test_create_volume_with_nonexistent_snapshot_id [0.094142s] ... ok
+{16} tempest.api.volume.test_volumes_negative.VolumesNegativeTest.test_create_volume_with_nonexistent_source_volid [0.327185s] ... ok
+{16} tempest.api.volume.test_volumes_negative.VolumesNegativeTest.test_create_volume_with_nonexistent_volume_type [0.076796s] ... ok
+{16} tempest.api.volume.test_volumes_negative.VolumesNegativeTest.test_create_volume_with_size_negative [0.016773s] ... ok
+{16} tempest.api.volume.test_volumes_negative.VolumesNegativeTest.test_create_volume_with_size_zero [0.022010s] ... ok
+{16} tempest.api.volume.test_volumes_negative.VolumesNegativeTest.test_create_volume_without_passing_size [0.027686s] ... ok
+{16} tempest.api.volume.test_volumes_negative.VolumesNegativeTest.test_delete_invalid_volume_id [0.024926s] ... ok
+{16} tempest.api.volume.test_volumes_negative.VolumesNegativeTest.test_delete_volume_without_passing_volume_id [0.014101s] ... ok
+{16} tempest.api.volume.test_volumes_negative.VolumesNegativeTest.test_detach_volumes_with_invalid_volume_id [0.033762s] ... ok
+{16} tempest.api.volume.test_volumes_negative.VolumesNegativeTest.test_get_invalid_volume_id [0.049981s] ... ok
+{16} tempest.api.volume.test_volumes_negative.VolumesNegativeTest.test_get_volume_without_passing_volume_id [0.010385s] ... ok
+{16} tempest.api.volume.test_volumes_negative.VolumesNegativeTest.test_list_volumes_detail_with_invalid_status [0.253864s] ... ok
+{16} tempest.api.volume.test_volumes_negative.VolumesNegativeTest.test_list_volumes_detail_with_nonexistent_name [0.093606s] ... ok
+{16} tempest.api.volume.test_volumes_negative.VolumesNegativeTest.test_list_volumes_with_invalid_status [0.071185s] ... ok
+{16} tempest.api.volume.test_volumes_negative.VolumesNegativeTest.test_list_volumes_with_nonexistent_name [0.075931s] ... ok
+{16} tempest.api.volume.test_volumes_negative.VolumesNegativeTest.test_reserve_volume_with_negative_volume_status [0.677987s] ... ok
+{16} tempest.api.volume.test_volumes_negative.VolumesNegativeTest.test_reserve_volume_with_nonexistent_volume_id [0.108496s] ... ok
+{16} tempest.api.volume.test_volumes_negative.VolumesNegativeTest.test_unreserve_volume_with_nonexistent_volume_id [0.165133s] ... ok
+{16} tempest.api.volume.test_volumes_negative.VolumesNegativeTest.test_update_volume_with_empty_volume_id [0.024776s] ... ok
+{16} tempest.api.volume.test_volumes_negative.VolumesNegativeTest.test_update_volume_with_invalid_volume_id [0.057254s] ... ok
+{16} tempest.api.volume.test_volumes_negative.VolumesNegativeTest.test_update_volume_with_nonexistent_volume_id [0.060577s] ... ok
+{16} tempest.api.volume.test_volumes_negative.VolumesNegativeTest.test_volume_delete_nonexistent_volume_id [0.032348s] ... ok
+{16} tempest.api.volume.test_volumes_negative.VolumesNegativeTest.test_volume_get_nonexistent_volume_id [0.035180s] ... ok
+{24} tempest.api.volume.admin.test_volume_quotas_negative.VolumeQuotasNegativeTestJSON.test_quota_volume_gigabytes [2.257838s] ... ok
+{24} tempest.api.volume.admin.test_volume_quotas_negative.VolumeQuotasNegativeTestJSON.test_quota_volumes [2.115612s] ... ok
+{10} tempest.api.volume.admin.test_volume_services.VolumesServicesTestJSON.test_get_service_by_volume_host_name [80.350187s] ... ok
+{10} tempest.api.volume.admin.test_volume_services.VolumesServicesTestJSON.test_list_services [0.060760s] ... ok
+{33} tempest.api.volume.admin.test_volume_snapshot_quotas_negative.VolumeSnapshotQuotasNegativeTestJSON.test_quota_volume_gigabytes_snapshots [3.191365s] ... ok
+{33} tempest.api.volume.admin.test_volume_snapshot_quotas_negative.VolumeSnapshotQuotasNegativeTestJSON.test_quota_volume_snapshots [0.358059s] ... ok
+{13} tempest.api.volume.test_volumes_clone_negative.VolumesCloneNegativeTest.test_create_from_volume_decreasing_size [98.017221s] ... ok
+{15} tempest.api.volume.admin.test_snapshots_actions.SnapshotsActionsTest.test_reset_snapshot_status [1.280129s] ... ok
+{23} tempest.api.volume.test_snapshot_metadata.SnapshotMetadataTestJSON.test_crud_snapshot_metadata [1.867406s] ... ok
+{23} tempest.api.volume.test_snapshot_metadata.SnapshotMetadataTestJSON.test_update_show_snapshot_metadata_item [0.967178s] ... ok
+{11} tempest.api.volume.admin.test_volume_type_access.VolumeTypesAccessTest.test_volume_type_access_add [98.303476s] ... ok
+{6} tempest.api.volume.test_volume_transfers.VolumesTransfersV355Test.test_create_get_list_accept_volume_transfer [98.593608s] ... ok
+{11} tempest.api.volume.admin.test_volume_type_access.VolumeTypesAccessTest.test_volume_type_access_list [1.586349s] ... ok
+{4} tempest.api.volume.test_volume_transfers.VolumesTransfersV357Test.test_create_get_list_accept_volume_transfer [106.611554s] ... ok
+{7} tempest.api.volume.test_volume_transfers.VolumesTransfersTest.test_create_get_list_accept_volume_transfer [109.558439s] ... ok
+{3} tempest.api.volume.admin.test_volume_quotas.VolumeQuotasAdminTestJSON.test_quota_usage [65.200740s] ... ok
+{38} tempest.api.volume.test_volumes_list.VolumesListTestJSON.test_volume_list [0.078191s] ... ok
+{38} tempest.api.volume.test_volumes_list.VolumesListTestJSON.test_volume_list_by_name [0.085891s] ... ok
+{38} tempest.api.volume.test_volumes_list.VolumesListTestJSON.test_volume_list_details_by_name [0.080664s] ... ok
+{38} tempest.api.volume.test_volumes_list.VolumesListTestJSON.test_volume_list_details_pagination [0.395058s] ... ok
+{38} tempest.api.volume.test_volumes_list.VolumesListTestJSON.test_volume_list_details_with_multiple_params [0.164458s] ... ok
+{38} tempest.api.volume.test_volumes_list.VolumesListTestJSON.test_volume_list_pagination [0.234515s] ... ok
+{38} tempest.api.volume.test_volumes_list.VolumesListTestJSON.test_volume_list_param_display_name_and_status [0.095936s] ... ok
+{38} tempest.api.volume.test_volumes_list.VolumesListTestJSON.test_volume_list_with_detail_param_display_name_and_status [0.095472s] ... ok
+{38} tempest.api.volume.test_volumes_list.VolumesListTestJSON.test_volume_list_with_detail_param_marker [0.079553s] ... ok
+{38} tempest.api.volume.test_volumes_list.VolumesListTestJSON.test_volume_list_with_detail_param_metadata [0.143076s] ... ok
+{38} tempest.api.volume.test_volumes_list.VolumesListTestJSON.test_volume_list_with_details [0.091522s] ... ok
+{38} tempest.api.volume.test_volumes_list.VolumesListTestJSON.test_volume_list_with_param_metadata [0.133287s] ... ok
+{38} tempest.api.volume.test_volumes_list.VolumesListTestJSON.test_volumes_list_by_availability_zone [0.125803s] ... ok
+{38} tempest.api.volume.test_volumes_list.VolumesListTestJSON.test_volumes_list_by_bootable [0.267867s] ... ok
+{38} tempest.api.volume.test_volumes_list.VolumesListTestJSON.test_volumes_list_by_status [0.199488s] ... ok
+{38} tempest.api.volume.test_volumes_list.VolumesListTestJSON.test_volumes_list_details_by_availability_zone [0.101689s] ... ok
+{38} tempest.api.volume.test_volumes_list.VolumesListTestJSON.test_volumes_list_details_by_bootable [0.077248s] ... ok
+{38} tempest.api.volume.test_volumes_list.VolumesListTestJSON.test_volumes_list_details_by_status [0.118691s] ... ok
+{30} tempest.api.volume.admin.test_volumes_list.VolumesListAdminTestJSON.test_volume_list_param_tenant [20.455375s] ... ok
+{15} tempest.api.volume.admin.test_snapshots_actions.SnapshotsActionsTest.test_snapshot_force_delete_when_snapshot_is_creating [43.453383s] ... ok
+{0} tempest.api.volume.test_volumes_get.VolumesGetTest.test_volume_create_get_update_delete [149.027467s] ... ok
+{39} tempest.api.volume.test_volumes_snapshots_list.VolumesSnapshotListTestJSON.test_snapshot_list_param_limit [0.285155s] ... ok
+{39} tempest.api.volume.test_volumes_snapshots_list.VolumesSnapshotListTestJSON.test_snapshot_list_param_limit_equals_infinite [0.103393s] ... ok
+{39} tempest.api.volume.test_volumes_snapshots_list.VolumesSnapshotListTestJSON.test_snapshot_list_param_limit_equals_zero [0.027991s] ... ok
+{39} tempest.api.volume.test_volumes_snapshots_list.VolumesSnapshotListTestJSON.test_snapshot_list_param_marker [0.138843s] ... ok
+{39} tempest.api.volume.test_volumes_snapshots_list.VolumesSnapshotListTestJSON.test_snapshot_list_param_offset [0.038567s] ... ok
+{39} tempest.api.volume.test_volumes_snapshots_list.VolumesSnapshotListTestJSON.test_snapshot_list_param_sort_created_at_asc [0.070744s] ... ok
+{39} tempest.api.volume.test_volumes_snapshots_list.VolumesSnapshotListTestJSON.test_snapshot_list_param_sort_created_at_desc [0.039717s] ... ok
+{39} tempest.api.volume.test_volumes_snapshots_list.VolumesSnapshotListTestJSON.test_snapshot_list_param_sort_id_asc [0.043658s] ... ok
+{39} tempest.api.volume.test_volumes_snapshots_list.VolumesSnapshotListTestJSON.test_snapshot_list_param_sort_id_desc [0.055791s] ... ok
+{39} tempest.api.volume.test_volumes_snapshots_list.VolumesSnapshotListTestJSON.test_snapshot_list_param_sort_name_asc [0.046202s] ... ok
+{39} tempest.api.volume.test_volumes_snapshots_list.VolumesSnapshotListTestJSON.test_snapshot_list_param_sort_name_desc [0.041714s] ... ok
+{39} tempest.api.volume.test_volumes_snapshots_list.VolumesSnapshotListTestJSON.test_snapshots_list_details_with_params [0.180003s] ... ok
+{39} tempest.api.volume.test_volumes_snapshots_list.VolumesSnapshotListTestJSON.test_snapshots_list_with_params [0.125741s] ... ok
+{6} tempest.api.volume.test_volume_transfers.VolumesTransfersV355Test.test_create_list_delete_volume_transfer [44.704745s] ... ok
+{4} tempest.api.volume.test_volume_transfers.VolumesTransfersV357Test.test_create_list_delete_volume_transfer [37.089446s] ... ok
+{7} tempest.api.volume.test_volume_transfers.VolumesTransfersTest.test_create_list_delete_volume_transfer [37.503578s] ... ok
+{3} tempest.api.volume.admin.test_volume_quotas.VolumeQuotasAdminTestJSON.test_quota_usage_after_volume_transfer [42.216662s] ... ok
+{3} tempest.api.volume.admin.test_volume_quotas.VolumeQuotasAdminTestJSON.test_show_quota_usage [0.679066s] ... ok
+{3} tempest.api.volume.admin.test_volume_quotas.VolumeQuotasAdminTestJSON.test_update_all_quota_resources_for_tenant [4.558688s] ... ok
+{1} tempest.api.volume.test_volume_delete_cascade.VolumesDeleteCascade.test_volume_delete_cascade [173.026352s] ... ok
+{15} tempest.api.volume.admin.test_snapshots_actions.SnapshotsActionsTest.test_snapshot_force_delete_when_snapshot_is_deleting [27.250237s] ... ok
+{5} tempest.api.volume.test_volumes_clone.VolumesCloneTest.test_create_from_volume [181.100590s] ... ok
+{1} setUpClass (tempest.api.volume.test_volumes_backup.VolumesBackupsTest) ... SKIPPED: Cinder backup feature disabled
+{15} tempest.api.volume.admin.test_snapshots_actions.SnapshotsActionsTest.test_snapshot_force_delete_when_snapshot_is_error [14.758730s] ... ok
+{15} tempest.api.volume.admin.test_snapshots_actions.SnapshotsActionsTest.test_snapshot_force_delete_when_snapshot_is_error_deleting [9.878171s] ... ok
+{15} tempest.api.volume.admin.test_snapshots_actions.SnapshotsActionsTest.test_update_snapshot_status [0.770324s] ... ok
+{0} tempest.api.volume.test_volumes_get.VolumesGetTest.test_volume_create_get_update_delete_as_clone [55.537942s] ... ok
+
+==============================
+Failed 5 tests - output below:
+==============================
+
+setUpClass (tempest.api.volume.admin.test_volume_retype.VolumeRetypeWithoutMigrationTest)
+-----------------------------------------------------------------------------------------
+
+Captured traceback:
+~~~~~~~~~~~~~~~~~~~
+    Traceback (most recent call last):
+
+      File "/home/stguser/devstack/python-tempestconf/.venv/lib/python3.12/site-packages/tempest/test.py", line 185, in setUpClass
+    raise value.with_traceback(trace)
+
+      File "/home/stguser/devstack/python-tempestconf/.venv/lib/python3.12/site-packages/tempest/test.py", line 178, in setUpClass
+    cls.resource_setup()
+
+      File "/home/stguser/devstack/python-tempestconf/.venv/lib/python3.12/site-packages/tempest/api/volume/admin/test_volume_retype.py", line 172, in resource_setup
+    cls.src_vol_type = cls.create_volume_type('volume-type-1')
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+      File "/home/stguser/devstack/python-tempestconf/.venv/lib/python3.12/site-packages/tempest/api/volume/base.py", line 366, in create_volume_type
+    volume_type = self.admin_volume_types_client.create_volume_type(
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+      File "/home/stguser/devstack/python-tempestconf/.venv/lib/python3.12/site-packages/tempest/lib/services/volume/v3/types_client.py", line 90, in create_volume_type
+    resp, body = self.post('types', post_body)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+      File "/home/stguser/devstack/python-tempestconf/.venv/lib/python3.12/site-packages/tempest/lib/common/rest_client.py", line 314, in post
+    resp_header, resp_body = self.request(
+                             ^^^^^^^^^^^^^
+
+      File "/home/stguser/devstack/python-tempestconf/.venv/lib/python3.12/site-packages/tempest/lib/common/rest_client.py", line 762, in request
+    self._error_checker(resp, resp_body)
+
+      File "/home/stguser/devstack/python-tempestconf/.venv/lib/python3.12/site-packages/tempest/lib/common/rest_client.py", line 892, in _error_checker
+    raise exceptions.Conflict(resp_body, resp=resp)
+
+    tempest.lib.exceptions.Conflict: Conflict with state of target resource
+Details: {'code': 409, 'message': 'Volume Type volume-type-1 already exists.'}
+
+
+setUpClass (tempest.api.volume.admin.test_volumes_actions.VolumesActionsTest)
+-----------------------------------------------------------------------------
+
+Captured traceback:
+~~~~~~~~~~~~~~~~~~~
+    Traceback (most recent call last):
+
+      File "/home/stguser/devstack/python-tempestconf/.venv/lib/python3.12/site-packages/tempest/test.py", line 185, in setUpClass
+    raise value.with_traceback(trace)
+
+      File "/home/stguser/devstack/python-tempestconf/.venv/lib/python3.12/site-packages/tempest/test.py", line 170, in setUpClass
+    cls.setup_credentials()
+
+      File "/home/stguser/devstack/python-tempestconf/.venv/lib/python3.12/site-packages/tempest/api/volume/base.py", line 62, in setup_credentials
+    super(BaseVolumeTest, cls).setup_credentials()
+
+      File "/home/stguser/devstack/python-tempestconf/.venv/lib/python3.12/site-packages/tempest/test.py", line 398, in setup_credentials
+    manager = cls.get_client_manager(
+              ^^^^^^^^^^^^^^^^^^^^^^^
+
+      File "/home/stguser/devstack/python-tempestconf/.venv/lib/python3.12/site-packages/tempest/test.py", line 743, in get_client_manager
+    creds = getattr(cred_provider, credentials_method)()
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+      File "/home/stguser/devstack/python-tempestconf/.venv/lib/python3.12/site-packages/tempest/lib/common/dynamic_creds.py", line 473, in get_primary_creds
+    return self.get_project_member_creds()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+      File "/home/stguser/devstack/python-tempestconf/.venv/lib/python3.12/site-packages/tempest/lib/common/dynamic_creds.py", line 514, in get_project_member_creds
+    return self.get_credentials(['member'], scope='project')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+      File "/home/stguser/devstack/python-tempestconf/.venv/lib/python3.12/site-packages/tempest/lib/common/dynamic_creds.py", line 459, in get_credentials
+    network, subnet, router = self._create_network_resources(
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+      File "/home/stguser/devstack/python-tempestconf/.venv/lib/python3.12/site-packages/tempest/lib/common/dynamic_creds.py", line 318, in _create_network_resources
+    router = self._create_router(router_name, tenant_id)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+      File "/home/stguser/devstack/python-tempestconf/.venv/lib/python3.12/site-packages/tempest/lib/common/dynamic_creds.py", line 379, in _create_router
+    resp_body = self.routers_admin_client.create_router(**kwargs)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+      File "/home/stguser/devstack/python-tempestconf/.venv/lib/python3.12/site-packages/tempest/lib/services/network/routers_client.py", line 27, in create_router
+    return self.create_resource(uri, post_body)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+      File "/home/stguser/devstack/python-tempestconf/.venv/lib/python3.12/site-packages/tempest/lib/services/network/base.py", line 62, in create_resource
+    resp, body = self.post(req_uri, req_post_data)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+      File "/home/stguser/devstack/python-tempestconf/.venv/lib/python3.12/site-packages/tempest/lib/common/rest_client.py", line 314, in post
+    resp_header, resp_body = self.request(
+                             ^^^^^^^^^^^^^
+
+      File "/home/stguser/devstack/python-tempestconf/.venv/lib/python3.12/site-packages/tempest/lib/common/rest_client.py", line 762, in request
+    self._error_checker(resp, resp_body)
+
+      File "/home/stguser/devstack/python-tempestconf/.venv/lib/python3.12/site-packages/tempest/lib/common/rest_client.py", line 892, in _error_checker
+    raise exceptions.Conflict(resp_body, resp=resp)
+
+    tempest.lib.exceptions.Conflict: Conflict with state of target resource
+Details: {'type': 'IpAddressGenerationFailure', 'message': 'No more IP addresses available on network 0cdb1fc2-5ef2-42d1-9505-33350276d87e.', 'detail': ''}
+
+
+setUpClass (tempest.api.volume.test_volumes_actions.VolumesActionsTest)
+-----------------------------------------------------------------------
+
+Captured traceback:
+~~~~~~~~~~~~~~~~~~~
+    Traceback (most recent call last):
+
+      File "/home/stguser/devstack/python-tempestconf/.venv/lib/python3.12/site-packages/tempest/test.py", line 185, in setUpClass
+    raise value.with_traceback(trace)
+
+      File "/home/stguser/devstack/python-tempestconf/.venv/lib/python3.12/site-packages/tempest/test.py", line 170, in setUpClass
+    cls.setup_credentials()
+
+      File "/home/stguser/devstack/python-tempestconf/.venv/lib/python3.12/site-packages/tempest/api/volume/base.py", line 62, in setup_credentials
+    super(BaseVolumeTest, cls).setup_credentials()
+
+      File "/home/stguser/devstack/python-tempestconf/.venv/lib/python3.12/site-packages/tempest/test.py", line 398, in setup_credentials
+    manager = cls.get_client_manager(
+              ^^^^^^^^^^^^^^^^^^^^^^^
+
+      File "/home/stguser/devstack/python-tempestconf/.venv/lib/python3.12/site-packages/tempest/test.py", line 743, in get_client_manager
+    creds = getattr(cred_provider, credentials_method)()
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+      File "/home/stguser/devstack/python-tempestconf/.venv/lib/python3.12/site-packages/tempest/lib/common/dynamic_creds.py", line 473, in get_primary_creds
+    return self.get_project_member_creds()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+      File "/home/stguser/devstack/python-tempestconf/.venv/lib/python3.12/site-packages/tempest/lib/common/dynamic_creds.py", line 514, in get_project_member_creds
+    return self.get_credentials(['member'], scope='project')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+      File "/home/stguser/devstack/python-tempestconf/.venv/lib/python3.12/site-packages/tempest/lib/common/dynamic_creds.py", line 459, in get_credentials
+    network, subnet, router = self._create_network_resources(
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+      File "/home/stguser/devstack/python-tempestconf/.venv/lib/python3.12/site-packages/tempest/lib/common/dynamic_creds.py", line 318, in _create_network_resources
+    router = self._create_router(router_name, tenant_id)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+      File "/home/stguser/devstack/python-tempestconf/.venv/lib/python3.12/site-packages/tempest/lib/common/dynamic_creds.py", line 379, in _create_router
+    resp_body = self.routers_admin_client.create_router(**kwargs)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+      File "/home/stguser/devstack/python-tempestconf/.venv/lib/python3.12/site-packages/tempest/lib/services/network/routers_client.py", line 27, in create_router
+    return self.create_resource(uri, post_body)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+      File "/home/stguser/devstack/python-tempestconf/.venv/lib/python3.12/site-packages/tempest/lib/services/network/base.py", line 62, in create_resource
+    resp, body = self.post(req_uri, req_post_data)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+      File "/home/stguser/devstack/python-tempestconf/.venv/lib/python3.12/site-packages/tempest/lib/common/rest_client.py", line 314, in post
+    resp_header, resp_body = self.request(
+                             ^^^^^^^^^^^^^
+
+      File "/home/stguser/devstack/python-tempestconf/.venv/lib/python3.12/site-packages/tempest/lib/common/rest_client.py", line 762, in request
+    self._error_checker(resp, resp_body)
+
+      File "/home/stguser/devstack/python-tempestconf/.venv/lib/python3.12/site-packages/tempest/lib/common/rest_client.py", line 892, in _error_checker
+    raise exceptions.Conflict(resp_body, resp=resp)
+
+    tempest.lib.exceptions.Conflict: Conflict with state of target resource
+Details: {'type': 'IpAddressGenerationFailure', 'message': 'No more IP addresses available on network 0cdb1fc2-5ef2-42d1-9505-33350276d87e.', 'detail': ''}
+
+
+setUpClass (tempest.api.volume.test_volumes_snapshots.VolumesSnapshotTestJSON)
+------------------------------------------------------------------------------
+
+Captured traceback:
+~~~~~~~~~~~~~~~~~~~
+    Traceback (most recent call last):
+
+      File "/home/stguser/devstack/python-tempestconf/.venv/lib/python3.12/site-packages/tempest/test.py", line 185, in setUpClass
+    raise value.with_traceback(trace)
+
+      File "/home/stguser/devstack/python-tempestconf/.venv/lib/python3.12/site-packages/tempest/test.py", line 170, in setUpClass
+    cls.setup_credentials()
+
+      File "/home/stguser/devstack/python-tempestconf/.venv/lib/python3.12/site-packages/tempest/api/volume/base.py", line 62, in setup_credentials
+    super(BaseVolumeTest, cls).setup_credentials()
+
+      File "/home/stguser/devstack/python-tempestconf/.venv/lib/python3.12/site-packages/tempest/test.py", line 398, in setup_credentials
+    manager = cls.get_client_manager(
+              ^^^^^^^^^^^^^^^^^^^^^^^
+
+      File "/home/stguser/devstack/python-tempestconf/.venv/lib/python3.12/site-packages/tempest/test.py", line 743, in get_client_manager
+    creds = getattr(cred_provider, credentials_method)()
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+      File "/home/stguser/devstack/python-tempestconf/.venv/lib/python3.12/site-packages/tempest/lib/common/dynamic_creds.py", line 473, in get_primary_creds
+    return self.get_project_member_creds()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+      File "/home/stguser/devstack/python-tempestconf/.venv/lib/python3.12/site-packages/tempest/lib/common/dynamic_creds.py", line 514, in get_project_member_creds
+    return self.get_credentials(['member'], scope='project')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+      File "/home/stguser/devstack/python-tempestconf/.venv/lib/python3.12/site-packages/tempest/lib/common/dynamic_creds.py", line 459, in get_credentials
+    network, subnet, router = self._create_network_resources(
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+      File "/home/stguser/devstack/python-tempestconf/.venv/lib/python3.12/site-packages/tempest/lib/common/dynamic_creds.py", line 318, in _create_network_resources
+    router = self._create_router(router_name, tenant_id)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+      File "/home/stguser/devstack/python-tempestconf/.venv/lib/python3.12/site-packages/tempest/lib/common/dynamic_creds.py", line 379, in _create_router
+    resp_body = self.routers_admin_client.create_router(**kwargs)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+      File "/home/stguser/devstack/python-tempestconf/.venv/lib/python3.12/site-packages/tempest/lib/services/network/routers_client.py", line 27, in create_router
+    return self.create_resource(uri, post_body)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+      File "/home/stguser/devstack/python-tempestconf/.venv/lib/python3.12/site-packages/tempest/lib/services/network/base.py", line 62, in create_resource
+    resp, body = self.post(req_uri, req_post_data)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+      File "/home/stguser/devstack/python-tempestconf/.venv/lib/python3.12/site-packages/tempest/lib/common/rest_client.py", line 314, in post
+    resp_header, resp_body = self.request(
+                             ^^^^^^^^^^^^^
+
+      File "/home/stguser/devstack/python-tempestconf/.venv/lib/python3.12/site-packages/tempest/lib/common/rest_client.py", line 762, in request
+    self._error_checker(resp, resp_body)
+
+      File "/home/stguser/devstack/python-tempestconf/.venv/lib/python3.12/site-packages/tempest/lib/common/rest_client.py", line 892, in _error_checker
+    raise exceptions.Conflict(resp_body, resp=resp)
+
+    tempest.lib.exceptions.Conflict: Conflict with state of target resource
+Details: {'type': 'IpAddressGenerationFailure', 'message': 'No more IP addresses available on network 0cdb1fc2-5ef2-42d1-9505-33350276d87e.', 'detail': ''}
+
+
+tempest.api.volume.test_volumes_negative.VolumesNegativeTest.test_attach_volumes_with_nonexistent_volume_id[compute,id-f5e56b0a-5d02-43c1-a2a7-c9b792c2e3f6,negative]
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Captured traceback:
+~~~~~~~~~~~~~~~~~~~
+    Traceback (most recent call last):
+
+      File "/home/stguser/devstack/python-tempestconf/.venv/lib/python3.12/site-packages/tempest/common/utils/__init__.py", line 65, in wrapper
+    return f(*func_args, **func_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+      File "/home/stguser/devstack/python-tempestconf/.venv/lib/python3.12/site-packages/tempest/api/volume/test_volumes_negative.py", line 188, in test_attach_volumes_with_nonexistent_volume_id
+    server = self.create_server()
+             ^^^^^^^^^^^^^^^^^^^^
+
+      File "/home/stguser/devstack/python-tempestconf/.venv/lib/python3.12/site-packages/tempest/api/volume/base.py", line 270, in create_server
+    body, _ = compute.create_test_server(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+      File "/home/stguser/devstack/python-tempestconf/.venv/lib/python3.12/site-packages/tempest/common/compute.py", line 343, in create_test_server
+    with excutils.save_and_reraise_exception():
+
+      File "/home/stguser/devstack/python-tempestconf/.venv/lib/python3.12/site-packages/oslo_utils/excutils.py", line 227, in __exit__
+    self.force_reraise()
+
+      File "/home/stguser/devstack/python-tempestconf/.venv/lib/python3.12/site-packages/oslo_utils/excutils.py", line 200, in force_reraise
+    raise self.value
+
+      File "/home/stguser/devstack/python-tempestconf/.venv/lib/python3.12/site-packages/tempest/common/compute.py", line 326, in create_test_server
+    server = waiters.wait_for_server_status(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+      File "/home/stguser/devstack/python-tempestconf/.venv/lib/python3.12/site-packages/tempest/common/waiters.py", line 80, in wait_for_server_status
+    raise exceptions.BuildErrorException(details, server_id=server_id)
+
+    tempest.exceptions.BuildErrorException: Server 56512a7b-3f12-4515-bc86-77fc5e5c99bb failed to build and is in ERROR status
+Details: Fault: {'code': 500, 'created': '2025-09-18T08:20:43Z', 'message': 'No valid host was found. There are not enough hosts available.'}. Request ID of server operation performed before checking the server status req-89711fc2-f6cc-4892-90ec-fff509c8f07f.
+
+
+Captured pythonlogging:
+~~~~~~~~~~~~~~~~~~~~~~~
+    2025-09-18 08:20:39,648 383965 INFO     [tempest.lib.common.rest_client] Request (VolumesNegativeTest:test_attach_volumes_with_nonexistent_volume_id): 201 POST http://9.180.170.14/identity/v3/auth/tokens 0.189s
+2025-09-18 08:20:39,649 383965 DEBUG    [tempest.lib.common.rest_client] Request - Headers: {'Content-Type': 'application/json', 'Accept': 'application/json'}
+        Body: <omitted>
+    Response - Headers: {'date': 'Thu, 18 Sep 2025 08:20:39 GMT', 'server': 'Apache/2.4.58 (Ubuntu)', 'content-type': 'application/json', 'content-length': '2504', 'x-subject-token': '<omitted>', 'vary': 'X-Auth-Token', 'x-openstack-request-id': 'req-a9625f5a-20c2-42d0-b918-c91c4a7d76a3', 'connection': 'close', 'status': '201', 'content-location': 'http://9.180.170.14/identity/v3/auth/tokens'}
+        Body: b'{"token": {"methods": ["password"], "user": {"domain": {"id": "default", "name": "Default"}, "id": "5b8a7c1dbbee4a32bb6d8b603b56f25d", "name": "tempest-VolumesNegativeTest-592992667-project-member", "password_expires_at": null}, "audit_ids": ["pYcqWs0fQd6sGuhE3JIpVQ"], "expires_at": "2025-09-18T09:20:39.000000Z", "issued_at": "2025-09-18T08:20:39.000000Z", "project": {"domain": {"id": "default", "name": "Default"}, "id": "28a37bee88f84021b12c940eed4c9521", "name": "tempest-VolumesNegativeTest-592992667"}, "is_domain": false, "roles": [{"id": "0318ff2ff2ad4fe09a237fa5e50f6f5e", "name": "member"}, {"id": "a4702ed7d4924839ac242110be92a2e7", "name": "reader"}], "catalog": [{"endpoints": [{"id": "d6c766b1e6ad4c98a760198d1a6b1df5", "interface": "public", "region_id": "RegionOne", "url": "http://9.180.170.14/image", "region": "RegionOne"}], "id": "0c66eabb6e174632ba37e112ade6910b", "type": "image", "name": "glance"}, {"endpoints": [{"id": "6b7996518fd3420e913478ccc29baf1e", "interface": "public", "region_id": "RegionOne", "url": "http://9.180.170.14/volume/v3", "region": "RegionOne"}], "id": "15ca64b596d24cb5af8c4eee2b076782", "type": "block-storage", "name": "cinder"}, {"endpoints": [{"id": "eb2749a58ec24dfb94178686d693c5cf", "interface": "public", "region_id": "RegionOne", "url": "http://9.180.170.14/compute/v2/28a37bee88f84021b12c940eed4c9521", "region": "RegionOne"}], "id": "34084b350dbc4f95b11dbf5b69499358", "type": "compute_legacy", "name": "nova_legacy"}, {"endpoints": [{"id": "db918ce86a8144c5bf984ac6cd3965ec", "interface": "public", "region_id": "RegionOne", "url": "http://9.180.170.14/placement", "region": "RegionOne"}], "id": "7f822a9ddd874a49998cb8a886c187e0", "type": "placement", "name": "placement"}, {"endpoints": [{"id": "f731e3bc851d425198b759da0d77cf5d", "interface": "public", "region_id": "RegionOne", "url": "http://9.180.170.14:9696/networking", "region": "RegionOne"}], "id": "8125845998564568b87ba757d7b63c81", "type": "network", "name": "neutron"}, {"endpoints": [{"id": "9012c0ae45834805869e04e0209b4dab", "interface": "public", "region_id": "RegionOne", "url": "http://9.180.170.14/identity", "region": "RegionOne"}], "id": "8664912605c04c888b898d2ec84e91bf", "type": "identity", "name": "keystone"}, {"endpoints": [{"id": "d794c89b75a0464f8ba6fd204cab0ed6", "interface": "public", "region_id": "RegionOne", "url": "http://9.180.170.14/compute/v2.1", "region": "RegionOne"}], "id": "c5587a973a6140f1977d88ed7c7983e3", "type": "compute", "name": "nova"}]}}'
+2025-09-18 08:20:39,649 383965 INFO     [tempest.lib.common.fixed_network] (VolumesNegativeTest:test_attach_volumes_with_nonexistent_volume_id) Found network None available for tenant
+2025-09-18 08:20:40,973 383965 INFO     [tempest.lib.common.rest_client] Request (VolumesNegativeTest:test_attach_volumes_with_nonexistent_volume_id): 202 POST http://9.180.170.14/compute/v2.1/servers 1.322s
+2025-09-18 08:20:40,973 383965 DEBUG    [tempest.lib.common.rest_client] Request - Headers: {'Content-Type': 'application/json', 'Accept': 'application/json', 'X-Auth-Token': '<omitted>'}
+        Body: {"server": {"name": "tempest-VolumesNegativeTest-instance-1166109036", "imageRef": "e0ae62a3-91c6-40f7-8147-acab952b63ac", "flavorRef": "42"}}
+    Response - Headers: {'date': 'Thu, 18 Sep 
+    2025 08:20:39 GMT', 'server': 'Apache/2.4.58 (Ubuntu)', 'content-length': '382', 'location': 'http://9.180.170.14/compute/v2.1/servers/56512a7b-3f12-4515-bc86-77fc5e5c99bb', 'content-type': 'application/json', 'openstack-api-version': 'compute 2.1', 'x-openstack-nova-api-version': '2.1', 'vary': 'OpenStack-API-Version,X-OpenStack-Nova-API-Version', 'x-openstack-request-id': 'req-89711fc2-f6cc-4892-90ec-fff509c8f07f', 'x-compute-request-id': 'req-89711fc2-f6cc-4892-90ec-fff509c8f07f', 'connection': 'close', 'status': '202', 'content-location': 'http://9.180.170.14/compute/v2.1/servers'}
+        Body: b'{"server": {"id": "56512a7b-3f12-4515-bc86-77fc5e5c99bb", "links": [{"rel": "self", "href": "http://9.180.170.14/compute/v2.1/servers/56512a7b-3f12-4515-bc86-77fc5e5c99bb"}, {"rel": "bookmark", "href": "http://9.180.170.14/compute/servers/56512a7b-3f12-4515-bc86-77fc5e5c99bb"}], "OS-DCF:diskConfig": "MANUAL", "security_groups": [{"name": "default"}], "adminPass": "3WKmUgsj5vkA"}}'
+2025-09-18 08:20:41,476 383965 INFO     [tempest.lib.common.rest_client] Request (VolumesNegativeTest:test_attach_volumes_with_nonexistent_volume_id): 200 GET http://9.180.170.14/compute/v2.1/servers/56512a7b-3f12-4515-bc86-77fc5e5c99bb 0.498s
+2025-09-18 08:20:41,476 383965 DEBUG    [tempest.lib.common.rest_client] Request - Headers: {'Content-Type': 'application/json', 'Accept': 'application/json', 'X-Auth-Token': '<omitted>'}
+        Body: None
+    Response - Headers: {'date': 'Thu, 18 Sep 2025 08:20:40 GMT', 'server': 'Apache/2.4.58 (Ubuntu)', 'content-length': '1217', 'content-type': 'application/json', 'openstack-api-version': 'compute 2.1', 'x-openstack-nova-api-version': '2.1', 'vary': 'OpenStack-API-Version,X-OpenStack-Nova-API-Version', 'x-openstack-request-id': 'req-92affde0-a69a-42df-88fc-5c91453f6b5b', 'x-compute-request-id': 'req-92affde0-a69a-42df-88fc-5c91453f6b5b', 'connection': 'close', 'status': '200', 'content-location': 'http://9.180.170.14/compute/v2.1/servers/56512a7b-3f12-4515-bc86-77fc5e5c99bb'}
+        Body: b'{"server": {"id": "56512a7b-3f12-4515-bc86-77fc5e5c99bb", "name": "tempest-VolumesNegativeTest-instance-1166109036", "status": "BUILD", "tenant_id": "28a37bee88f84021b12c940eed4c9521", "user_id": "5b8a7c1dbbee4a32bb6d8b603b56f25d", "metadata": {}, "hostId": "", "image": {"id": "e0ae62a3-91c6-40f7-8147-acab952b63ac", "links": [{"rel": "bookmark", "href": "http://9.180.170.14/compute/images/e0ae62a3-91c6-40f7-8147-acab952b63ac"}]}, "flavor": {"id": "42", "links": [{"rel": "bookmark", "href": "http://9.180.170.14/compute/flavors/42"}]}, "created": "2025-09-18T08:20:41Z", "updated": "2025-09-18T08:20:41Z", "addresses": {}, "accessIPv4": "", "accessIPv6": "", "links": [{"rel": "self", "href": "http://9.180.170.14/compute/v2.1/servers/56512a7b-3f12-4515-bc86-77fc5e5c99bb"}, {"rel": "bookmark", "href": "http://9.180.170.14/compute/servers/56512a7b-3f12-4515-bc86-77fc5e5c99bb"}], "OS-DCF:diskConfig": "MANUAL", "progress": 0, "OS-EXT-AZ:availability_zone": "", "config_drive": "", "key_name": null, "OS-SRV-USG:launched_at": null, "OS-SRV-USG:terminated_at": null, "OS-EXT-STS:task_state": "scheduling", "OS-EXT-STS:vm_state": "building", "OS-EXT-STS:power_state": 0, "os-extended-volumes:volumes_attached": []}}'
+2025-09-18 08:20:42,786 383965 INFO     [tempest.lib.common.rest_client] Request (VolumesNegativeTest:test_attach_volumes_with_nonexistent_volume_id): 200 GET http://9.180.170.14/compute/v2.1/servers/56512a7b-3f12-4515-bc86-77fc5e5c99bb 0.291s
+2025-09-18 08:20:42,807 383965 DEBUG    [tempest.lib.common.rest_client] Request - Headers: {'Content-Type': 'application/json', 'Accept': 'application/json', 'X-Auth-Token': '<omitted>'}
+        Body: None
+    Response - Headers: {'date': 'Thu, 18 Sep 2025 08:20:42 GMT', 'server': 'Apache/2.4.58 (Ubuntu)', 'content-length': '1217', 'content-type': 'application/json', 'openstack-api-version': 'compute 2.1', 'x-openstack-nova-api-version': '2.1', 'vary': 'OpenStack-API-Version,X-OpenStack-Nova-API-Version', 'x-openstack-request-id': 'req-0c827212-761b-427d-a727-c007ce605ee7', 'x-comp
+    ute-request-id': 'req-0c827212-761b-427d-a727-c007ce605ee7', 'connection': 'close', 'status': '200', 'content-location': 'http://9.180.170.14/compute/v2.1/servers/56512a7b-3f12-4515-bc86-77fc5e5c99bb'}
+        Body: b'{"server": {"id": "56512a7b-3f12-4515-bc86-77fc5e5c99bb", "name": "tempest-VolumesNegativeTest-instance-1166109036", "status": "BUILD", "tenant_id": "28a37bee88f84021b12c940eed4c9521", "user_id": "5b8a7c1dbbee4a32bb6d8b603b56f25d", "metadata": {}, "hostId": "", "image": {"id": "e0ae62a3-91c6-40f7-8147-acab952b63ac", "links": [{"rel": "bookmark", "href": "http://9.180.170.14/compute/images/e0ae62a3-91c6-40f7-8147-acab952b63ac"}]}, "flavor": {"id": "42", "links": [{"rel": "bookmark", "href": "http://9.180.170.14/compute/flavors/42"}]}, "created": "2025-09-18T08:20:40Z", "updated": "2025-09-18T08:20:42Z", "addresses": {}, "accessIPv4": "", "accessIPv6": "", "links": [{"rel": "self", "href": "http://9.180.170.14/compute/v2.1/servers/56512a7b-3f12-4515-bc86-77fc5e5c99bb"}, {"rel": "bookmark", "href": "http://9.180.170.14/compute/servers/56512a7b-3f12-4515-bc86-77fc5e5c99bb"}], "OS-DCF:diskConfig": "MANUAL", "progress": 0, "OS-EXT-AZ:availability_zone": "", "config_drive": "", "key_name": null, "OS-SRV-USG:launched_at": null, "OS-SRV-USG:terminated_at": null, "OS-EXT-STS:task_state": "scheduling", "OS-EXT-STS:vm_state": "building", "OS-EXT-STS:power_state": 0, "os-extended-volumes:volumes_attached": []}}'
+2025-09-18 08:20:44,457 383965 INFO     [tempest.lib.common.rest_client] Request (VolumesNegativeTest:test_attach_volumes_with_nonexistent_volume_id): 200 GET http://9.180.170.14/compute/v2.1/servers/56512a7b-3f12-4515-bc86-77fc5e5c99bb 0.631s
+2025-09-18 08:20:44,457 383965 DEBUG    [tempest.lib.common.rest_client] Request - Headers: {'Content-Type': 'application/json', 'Accept': 'application/json', 'X-Auth-Token': '<omitted>'}
+        Body: None
+    Response - Headers: {'date': 'Thu, 18 Sep 2025 08:20:43 GMT', 'server': 'Apache/2.4.58 (Ubuntu)', 'content-length': '1327', 'content-type': 'application/json', 'openstack-api-version': 'compute 2.1', 'x-openstack-nova-api-version': '2.1', 'vary': 'OpenStack-API-Version,X-OpenStack-Nova-API-Version', 'x-openstack-request-id': 'req-0d5114a1-7dc3-4e64-91d7-9f7542b27b19', 'x-compute-request-id': 'req-0d5114a1-7dc3-4e64-91d7-9f7542b27b19', 'connection': 'close', 'status': '200', 'content-location': 'http://9.180.170.14/compute/v2.1/servers/56512a7b-3f12-4515-bc86-77fc5e5c99bb'}
+        Body: b'{"server": {"id": "56512a7b-3f12-4515-bc86-77fc5e5c99bb", "name": "tempest-VolumesNegativeTest-instance-1166109036", "status": "ERROR", "tenant_id": "28a37bee88f84021b12c940eed4c9521", "user_id": "5b8a7c1dbbee4a32bb6d8b603b56f25d", "metadata": {}, "hostId": "", "image": {"id": "e0ae62a3-91c6-40f7-8147-acab952b63ac", "links": [{"rel": "bookmark", "href": "http://9.180.170.14/compute/images/e0ae62a3-91c6-40f7-8147-acab952b63ac"}]}, "flavor": {"id": "42", "links": [{"rel": "bookmark", "href": "http://9.180.170.14/compute/flavors/42"}]}, "created": "2025-09-18T08:20:40Z", "updated": "2025-09-18T08:20:43Z", "addresses": {}, "accessIPv4": "", "accessIPv6": "", "links": [{"rel": "self", "href": "http://9.180.170.14/compute/v2.1/servers/56512a7b-3f12-4515-bc86-77fc5e5c99bb"}, {"rel": "bookmark", "href": "http://9.180.170.14/compute/servers/56512a7b-3f12-4515-bc86-77fc5e5c99bb"}], "OS-DCF:diskConfig": "MANUAL", "fault": {"code": 500, "created": "2025-09-18T08:20:43Z", "message": "No valid host was found. There are not enough hosts available."}, "OS-EXT-AZ:availability_zone": "", "config_drive": "", "key_name": null, "OS-SRV-USG:launched_at": null, "OS-SRV-USG:terminated_at": null, "OS-EXT-STS:task_state": null, "OS-EXT-STS:vm_state": "error", "OS-EXT-STS:power_state": 0, "os-extended-volumes:volumes_attached": []}}'
+2025-09-18 08:20:44,474 383965 INFO     [tempest.common.waiters] State transition "BUILD/scheduling" ==> "ERROR/None" after 3 second wait
+2025-09-18 08:20:47,764 383965 INFO     [tempest.lib.common.rest_client] Request (VolumesNegativeTest:test_attach_volumes_with_nonexistent_vo
+    lume_id): 204 DELETE http://9.180.170.14/compute/v2.1/servers/56512a7b-3f12-4515-bc86-77fc5e5c99bb 3.289s
+2025-09-18 08:20:47,764 383965 DEBUG    [tempest.lib.common.rest_client] Request - Headers: {'Content-Type': 'application/json', 'Accept': 'application/json', 'X-Auth-Token': '<omitted>'}
+        Body: None
+    Response - Headers: {'date': 'Thu, 18 Sep 2025 08:20:44 GMT', 'server': 'Apache/2.4.58 (Ubuntu)', 'content-type': 'application/json', 'openstack-api-version': 'compute 2.1', 'x-openstack-nova-api-version': '2.1', 'vary': 'OpenStack-API-Version,X-OpenStack-Nova-API-Version', 'x-openstack-request-id': 'req-81308baf-1ed3-4798-b1e5-41e9cd9ecb0c', 'x-compute-request-id': 'req-81308baf-1ed3-4798-b1e5-41e9cd9ecb0c', 'connection': 'close', 'status': '204', 'content-location': 'http://9.180.170.14/compute/v2.1/servers/56512a7b-3f12-4515-bc86-77fc5e5c99bb'}
+        Body: b''
+2025-09-18 08:20:47,826 383965 INFO     [tempest.lib.common.rest_client] Request (VolumesNegativeTest:test_attach_volumes_with_nonexistent_volume_id): 404 GET http://9.180.170.14/compute/v2.1/servers/56512a7b-3f12-4515-bc86-77fc5e5c99bb 0.061s
+2025-09-18 08:20:47,826 383965 DEBUG    [tempest.lib.common.rest_client] Request - Headers: {'Content-Type': 'application/json', 'Accept': 'application/json', 'X-Auth-Token': '<omitted>'}
+        Body: None
+    Response - Headers: {'date': 'Thu, 18 Sep 2025 08:20:47 GMT', 'server': 'Apache/2.4.58 (Ubuntu)', 'openstack-api-version': 'compute 2.1', 'x-openstack-nova-api-version': '2.1', 'vary': 'OpenStack-API-Version,X-OpenStack-Nova-API-Version', 'content-type': 'application/json; charset=UTF-8', 'content-length': '111', 'x-openstack-request-id': 'req-8b48aa74-d63f-4b8d-b62b-057bfa53ce7c', 'x-compute-request-id': 'req-8b48aa74-d63f-4b8d-b62b-057bfa53ce7c', 'connection': 'close', 'status': '404', 'content-location': 'http://9.180.170.14/compute/v2.1/servers/56512a7b-3f12-4515-bc86-77fc5e5c99bb'}
+        Body: b'{"itemNotFound": {"code": 404, "message": "Instance 56512a7b-3f12-4515-bc86-77fc5e5c99bb could not be found."}}'
+
+
+
+======
+Totals
+======
+Ran: 166 tests in 208.4550 sec.
+ - Passed: 155
+ - Skipped: 6
+ - Expected Fail: 0
+ - Unexpected Success: 0
+ - Failed: 5
+Sum of execute time for each test: 1853.4367 sec.
+
+==============
+Worker Balance
+==============
+ - Worker 0 (3 tests) => 0:03:28.070962
+ - Worker 1 (2 tests) => 0:03:01.791901
+ - Worker 2 (5 tests) => 0:00:57.197547
+ - Worker 3 (8 tests) => 0:02:49.992829
+ - Worker 4 (3 tests) => 0:02:36.458847
+ - Worker 5 (2 tests) => 0:03:02.995195
+ - Worker 6 (2 tests) => 0:02:23.335127
+ - Worker 7 (2 tests) => 0:02:27.086052
+ - Worker 8 (2 tests) => 0:01:04.172459
+ - Worker 9 (7 tests) => 0:00:32.520397
+ - Worker 10 (5 tests) => 0:01:27.123590
+ - Worker 11 (2 tests) => 0:01:39.919117
+ - Worker 12 (2 tests) => 0:00:24.088775
+ - Worker 13 (1 tests) => 0:01:38.017221
+ - Worker 14 (6 tests) => 0:00:14.230175
+ - Worker 15 (6 tests) => 0:01:37.418813
+ - Worker 16 (27 tests) => 0:00:19.723217
+ - Worker 17 (3 tests) => 0:00:13.109991
+ - Worker 18 (12 tests) => 0:00:10.272713
+ - Worker 19 (2 tests) => 0:00:02.237958
+ - Worker 20 (2 tests) => 0:00:13.665174
+ - Worker 21 (1 tests) => 0:00:00
+ - Worker 22 (1 tests) => 0:00:00
+ - Worker 23 (2 tests) => 0:00:02.851179
+ - Worker 24 (2 tests) => 0:00:04.383461
+ - Worker 25 (1 tests) => 0:00:00
+ - Worker 26 (5 tests) => 0:00:08.082791
+ - Worker 27 (1 tests) => 0:00:00
+ - Worker 28 (1 tests) => 0:00:00.759250
+ - Worker 29 (5 tests) => 0:00:11.836605
+ - Worker 30 (1 tests) => 0:00:20.455375
+ - Worker 31 (2 tests) => 0:00:07.301925
+ - Worker 32 (2 tests) => 0:00:06.261422
+ - Worker 33 (2 tests) => 0:00:03.565962
+ - Worker 34 (1 tests) => 0:00:04.415317
+ - Worker 35 (1 tests) => 0:00:03.880932
+ - Worker 36 (1 tests) => 0:00:01.971644
+ - Worker 37 (2 tests) => 0:00:04.917706
+ - Worker 38 (18 tests) => 0:00:02.604042
+ - Worker 39 (13 tests) => 0:00:01.225150
